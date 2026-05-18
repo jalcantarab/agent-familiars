@@ -1,0 +1,6 @@
+{
+  "id": "pixel-penguin",
+  "displayName": "Pixel Penguin",
+  "description": "A blocky server-room penguin whose square waddle and belly panels announce quiet system checks.",
+  "spritesheetPath": "spritesheet.webp"
+}

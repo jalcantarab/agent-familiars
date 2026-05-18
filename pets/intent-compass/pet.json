@@ -1,0 +1,6 @@
+{
+  "id": "intent-compass",
+  "displayName": "Intent Compass",
+  "description": "A tiny compass familiar that shows direction, indecision, work, review, and failure through a living needle.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "queue-crab",
+  "displayName": "Queue Crab",
+  "description": "A sideways job-queue crab whose claws track pending work and pull tasks into motion.",
+  "spritesheetPath": "spritesheet.webp"
+}

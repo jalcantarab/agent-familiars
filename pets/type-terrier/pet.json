@@ -1,0 +1,6 @@
+{
+  "id": "type-terrier",
+  "displayName": "Type Terrier",
+  "description": "A compiler-error terrier that digs at type mismatches until the overload is clear.",
+  "spritesheetPath": "spritesheet.webp"
+}

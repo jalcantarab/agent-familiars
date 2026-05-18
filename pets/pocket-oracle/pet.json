@@ -1,0 +1,6 @@
+{
+  "id": "pocket-oracle",
+  "displayName": "Pocket Oracle",
+  "description": "A small tablet familiar whose aperture opens, clouds, scans, and waits as Codex changes state.",
+  "spritesheetPath": "spritesheet.webp"
+}

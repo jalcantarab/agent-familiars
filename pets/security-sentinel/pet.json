@@ -1,0 +1,6 @@
+{
+  "id": "security-sentinel",
+  "displayName": "Security Sentinel",
+  "description": "A small secure-review sentinel that scans trust boundaries with quiet checkpoint posture.",
+  "spritesheetPath": "spritesheet.webp"
+}

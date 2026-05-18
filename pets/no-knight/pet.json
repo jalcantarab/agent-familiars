@@ -1,0 +1,6 @@
+{
+  "id": "no-knight",
+  "displayName": "No Knight",
+  "description": "A tiny roadmap knight that protects focus with a giant shield-billboard.",
+  "spritesheetPath": "spritesheet.webp"
+}

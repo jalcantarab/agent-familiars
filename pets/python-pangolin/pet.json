@@ -1,0 +1,6 @@
+{
+  "id": "python-pangolin",
+  "displayName": "Python Pangolin",
+  "description": "A refactor pangolin whose scales flip in indentation-like steps while it edits.",
+  "spritesheetPath": "spritesheet.webp"
+}

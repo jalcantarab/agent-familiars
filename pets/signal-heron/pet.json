@@ -1,0 +1,6 @@
+{
+  "id": "signal-heron",
+  "displayName": "Signal Heron",
+  "description": "A zen folded heron that hears customer signal by becoming still.",
+  "spritesheetPath": "spritesheet.webp"
+}

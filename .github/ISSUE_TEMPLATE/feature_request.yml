@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an improvement to the CLI, MCP server, renderer, docs, or catalog.
+title: "Feature: "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CLI
+        - MCP server
+        - Renderer and sequences
+        - Installer
+        - Pet catalog
+        - Documentation
+        - Repository workflow
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User outcome
+      description: What should someone be able to do after this exists?
+      placeholder: "I want to generate a short pack comparison without editing a JSON recipe."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed shape
+      description: What interface, command, document, or behavior would make this feel natural?
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs or alternatives
+      description: Optional. Note any complexity, asset size, licensing, or compatibility concerns.

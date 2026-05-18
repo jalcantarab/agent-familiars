@@ -1,0 +1,6 @@
+{
+  "id": "feature-hydra",
+  "displayName": "Feature Hydra",
+  "description": "A charming product hydra whose feature heads regrow when scope is cut badly.",
+  "spritesheetPath": "spritesheet.webp"
+}

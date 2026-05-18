@@ -1,0 +1,6 @@
+{
+  "id": "approval-alpaca",
+  "displayName": "Approval Alpaca",
+  "description": "A patient approval alpaca whose long neck and woolly posture make human handoff feel calm.",
+  "spritesheetPath": "spritesheet.webp"
+}

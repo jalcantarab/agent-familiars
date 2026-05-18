@@ -1,0 +1,6 @@
+{
+  "id": "migration-mantis",
+  "displayName": "Migration Mantis",
+  "description": "A precise migration mantis that moves one attached block from old path to new path with surgical care.",
+  "spritesheetPath": "spritesheet.webp"
+}

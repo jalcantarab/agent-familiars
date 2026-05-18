@@ -1,0 +1,729 @@
+{
+  "zentri": {
+    "title": "Zentri",
+    "subtitle": "folded product intent",
+    "best": [
+      { "state": "idle", "caption": "creases settle" },
+      { "state": "waiting", "caption": "intent held" },
+      { "state": "running", "caption": "folds align" },
+      { "state": "review", "caption": "one sharp look" },
+      { "state": "waving", "caption": "tiny hello" }
+    ]
+  },
+  "signal-surface": {
+    "title": "Signal Surface",
+    "subtitle": "status at a glance",
+    "best": [
+      { "state": "idle", "caption": "calm signal" },
+      { "state": "waiting", "caption": "input glow" },
+      { "state": "running", "caption": "work moving" },
+      { "state": "review", "caption": "clean scan" },
+      { "state": "failed", "caption": "fault bloom" }
+    ]
+  },
+  "intent-compass": {
+    "title": "Intent Compass",
+    "subtitle": "direction and decisions",
+    "best": [
+      { "state": "idle", "caption": "bearing held" },
+      { "state": "waiting", "caption": "north pending" },
+      { "state": "running", "caption": "needle hunts" },
+      { "state": "review", "caption": "choice checked" },
+      { "state": "failed", "caption": "split signal" }
+    ]
+  },
+  "thread-totem": {
+    "title": "Thread Totem",
+    "subtitle": "cords, beads, and flow",
+    "best": [
+      { "state": "idle", "caption": "threads rest" },
+      { "state": "waiting", "caption": "bead holds" },
+      { "state": "running", "caption": "cord flows" },
+      { "state": "review", "caption": "knots align" },
+      { "state": "failed", "caption": "tangle found" }
+    ]
+  },
+  "pocket-oracle": {
+    "title": "Pocket Oracle",
+    "subtitle": "tiny tablet omen",
+    "best": [
+      { "state": "idle", "caption": "aperture quiet" },
+      { "state": "waiting", "caption": "fog listens" },
+      { "state": "running", "caption": "runes wake" },
+      { "state": "review", "caption": "lens narrows" },
+      { "state": "failed", "caption": "clouded read" }
+    ]
+  },
+  "loop-loom": {
+    "title": "Loop Loom",
+    "subtitle": "small woven state",
+    "best": [
+      { "state": "idle", "caption": "loop rests" },
+      { "state": "waiting", "caption": "shuttle pauses" },
+      { "state": "running", "caption": "weave advances" },
+      { "state": "review", "caption": "pattern checked" },
+      { "state": "failed", "caption": "snag visible" }
+    ]
+  },
+  "tide-stone": {
+    "title": "Tide Stone",
+    "subtitle": "quiet liquid state",
+    "best": [
+      { "state": "idle", "caption": "quiet tide" },
+      { "state": "waiting", "caption": "amber pool" },
+      { "state": "running", "caption": "current moves" },
+      { "state": "review", "caption": "clear lens" },
+      { "state": "failed", "caption": "coral fault" }
+    ]
+  },
+  "merge-mammoth": {
+    "title": "Merge Mammoth",
+    "subtitle": "patient conflict help",
+    "best": [
+      { "state": "idle", "caption": "branches calm" },
+      { "state": "waiting", "caption": "awaits owner" },
+      { "state": "running", "caption": "trunk untangles" },
+      { "state": "review", "caption": "conflict checked" },
+      { "state": "failed", "caption": "stomped merge" }
+    ]
+  },
+  "ci-phoenix": {
+    "title": "CI Phoenix",
+    "subtitle": "rebuilds from failure",
+    "best": [
+      { "state": "idle", "caption": "embers low" },
+      { "state": "running", "caption": "build ignites" },
+      { "state": "review", "caption": "green feather" },
+      { "state": "failed", "caption": "ash again" },
+      { "state": "jumping", "caption": "rebirth hop" }
+    ]
+  },
+  "patch-panda": {
+    "title": "Patch Panda",
+    "subtitle": "careful tiny repairs",
+    "best": [
+      { "state": "idle", "caption": "patch ready" },
+      { "state": "waiting", "caption": "sniffing diff" },
+      { "state": "running", "caption": "paw applies" },
+      { "state": "review", "caption": "edges pressed" },
+      { "state": "failed", "caption": "patch peeled" }
+    ]
+  },
+  "product-crane": {
+    "title": "Product Crane",
+    "subtitle": "calm planning posture",
+    "best": [
+      { "state": "idle", "caption": "intent folded" },
+      { "state": "waiting", "caption": "signal watched" },
+      { "state": "running", "caption": "plans step" },
+      { "state": "review", "caption": "scope inspected" },
+      { "state": "waving", "caption": "gentle marker" }
+    ]
+  },
+  "no-knight": {
+    "title": "No Knight",
+    "subtitle": "the roadmap guardian",
+    "best": [
+      { "state": "idle", "caption": "NO" },
+      { "state": "waiting", "caption": "evidence?" },
+      { "state": "running", "caption": "scope?" },
+      { "state": "review", "caption": "tradeoff?" },
+      { "state": "failed", "caption": "not today" },
+      { "state": "waving", "caption": "politely no" }
+    ]
+  },
+  "feature-hydra": {
+    "title": "Feature Hydra",
+    "subtitle": "scope keeps growing",
+    "best": [
+      { "state": "idle", "caption": "one more?" },
+      { "state": "waiting", "caption": "heads listen" },
+      { "state": "running", "caption": "scope sprouts" },
+      { "state": "review", "caption": "trim list" },
+      { "state": "failed", "caption": "regrew again" }
+    ]
+  },
+  "mvp-bonsai": {
+    "title": "MVP Bonsai",
+    "subtitle": "taste through pruning",
+    "best": [
+      { "state": "idle", "caption": "small is hard" },
+      { "state": "waiting", "caption": "shears pause" },
+      { "state": "running", "caption": "branch trimmed" },
+      { "state": "review", "caption": "shape checked" },
+      { "state": "failed", "caption": "too much tree" }
+    ]
+  },
+  "backlog-archaeologist": {
+    "title": "Backlog Archaeologist",
+    "subtitle": "old tickets, new doubt",
+    "best": [
+      { "state": "idle", "caption": "dust settles" },
+      { "state": "waiting", "caption": "artifact found" },
+      { "state": "running", "caption": "dig carefully" },
+      { "state": "review", "caption": "still relevant?" },
+      { "state": "failed", "caption": "ancient scope" }
+    ]
+  },
+  "signal-heron": {
+    "title": "Signal Heron",
+    "subtitle": "quiet customer signal",
+    "best": [
+      { "state": "idle", "caption": "floating still" },
+      { "state": "waiting", "caption": "water listens" },
+      { "state": "running", "caption": "ripple follows" },
+      { "state": "review", "caption": "signal caught" },
+      { "state": "failed", "caption": "muddy pond" }
+    ]
+  },
+  "priority-sphinx": {
+    "title": "Priority Sphinx",
+    "subtitle": "answer the tradeoff",
+    "best": [
+      { "state": "idle", "caption": "riddle ready" },
+      { "state": "waiting", "caption": "asks why now" },
+      { "state": "running", "caption": "sand shifts" },
+      { "state": "review", "caption": "answer weighed" },
+      { "state": "failed", "caption": "wrong riddle" }
+    ]
+  },
+  "alignment-magnet": {
+    "title": "Alignment Magnet",
+    "subtitle": "visible convergence",
+    "best": [
+      { "state": "idle", "caption": "poles quiet" },
+      { "state": "waiting", "caption": "pull pending" },
+      { "state": "running", "caption": "vectors turn" },
+      { "state": "review", "caption": "north shared" },
+      { "state": "failed", "caption": "poles split" }
+    ]
+  },
+  "stakeholder-weather-vane": {
+    "title": "Stakeholder Weather Vane",
+    "subtitle": "opinion pressure",
+    "best": [
+      { "state": "idle", "caption": "wind low" },
+      { "state": "waiting", "caption": "forecast soon" },
+      { "state": "running", "caption": "vane spins" },
+      { "state": "review", "caption": "pressure read" },
+      { "state": "failed", "caption": "storm meeting" }
+    ]
+  },
+  "tradeoff-scale": {
+    "title": "Tradeoff Scale",
+    "subtitle": "real weight, not vibes",
+    "best": [
+      { "state": "idle", "caption": "balanced for now" },
+      { "state": "waiting", "caption": "weight missing" },
+      { "state": "running", "caption": "choice tilts" },
+      { "state": "review", "caption": "cost counted" },
+      { "state": "failed", "caption": "hidden weight" }
+    ]
+  },
+  "launch-lantern": {
+    "title": "Launch Lantern",
+    "subtitle": "readiness as a flame",
+    "best": [
+      { "state": "idle", "caption": "flame steady" },
+      { "state": "waiting", "caption": "wind check" },
+      { "state": "running", "caption": "wick brightens" },
+      { "state": "review", "caption": "go window" },
+      { "state": "failed", "caption": "draft caught" }
+    ]
+  },
+  "test-tortoise": {
+    "title": "Test Tortoise",
+    "subtitle": "slow is smooth",
+    "best": [
+      { "state": "idle", "caption": "matrix quiet" },
+      { "state": "waiting", "caption": "queue shell" },
+      { "state": "running", "caption": "tests crawl" },
+      { "state": "review", "caption": "all squares" },
+      { "state": "failed", "caption": "red shell" }
+    ]
+  },
+  "diff-dragon": {
+    "title": "Diff Dragon",
+    "subtitle": "large diffs, small fire",
+    "best": [
+      { "state": "idle", "caption": "smoke held" },
+      { "state": "waiting", "caption": "line scent" },
+      { "state": "running", "caption": "tail marks" },
+      { "state": "review", "caption": "eyes narrow" },
+      { "state": "failed", "caption": "burned hunk" }
+    ]
+  },
+  "queue-crab": {
+    "title": "Queue Crab",
+    "subtitle": "sideways job control",
+    "best": [
+      { "state": "idle", "caption": "slots tidy" },
+      { "state": "waiting", "caption": "claw holds" },
+      { "state": "running", "caption": "job pulled" },
+      { "state": "review", "caption": "queue counted" },
+      { "state": "failed", "caption": "stuck sideways" }
+    ]
+  },
+  "context-cat": {
+    "title": "Context Cat",
+    "subtitle": "long context, short nap",
+    "best": [
+      { "state": "idle", "caption": "window warm" },
+      { "state": "waiting", "caption": "tail bookmark" },
+      { "state": "running", "caption": "threads unwind" },
+      { "state": "review", "caption": "one paw down" },
+      { "state": "failed", "caption": "context knot" }
+    ]
+  },
+  "prompt-parrot": {
+    "title": "Prompt Parrot",
+    "subtitle": "instructions get sharper",
+    "best": [
+      { "state": "idle", "caption": "beak quiet" },
+      { "state": "waiting", "caption": "phrase held" },
+      { "state": "running", "caption": "words reorder" },
+      { "state": "review", "caption": "say it cleaner" },
+      { "state": "failed", "caption": "squawked scope" }
+    ]
+  },
+  "build-bot": {
+    "title": "Build Bot",
+    "subtitle": "small progress panel",
+    "best": [
+      { "state": "idle", "caption": "panel dim" },
+      { "state": "waiting", "caption": "antenna waits" },
+      { "state": "running", "caption": "bars climb" },
+      { "state": "review", "caption": "checksum blink" },
+      { "state": "failed", "caption": "red panel" }
+    ]
+  },
+  "cache-squirrel": {
+    "title": "Cache Squirrel",
+    "subtitle": "dependency stash",
+    "best": [
+      { "state": "idle", "caption": "stash sorted" },
+      { "state": "waiting", "caption": "tail pocket" },
+      { "state": "running", "caption": "cache fetched" },
+      { "state": "review", "caption": "hit counted" },
+      { "state": "failed", "caption": "missed nut" }
+    ]
+  },
+  "latency-lemur": {
+    "title": "Latency Lemur",
+    "subtitle": "tail as timing graph",
+    "best": [
+      { "state": "idle", "caption": "p95 calm" },
+      { "state": "waiting", "caption": "timer holds" },
+      { "state": "running", "caption": "tail spikes" },
+      { "state": "review", "caption": "trace read" },
+      { "state": "failed", "caption": "timeout tail" }
+    ]
+  },
+  "trace-manta": {
+    "title": "Trace Manta",
+    "subtitle": "spans downstream",
+    "best": [
+      { "state": "idle", "caption": "span quiet" },
+      { "state": "waiting", "caption": "fin hovers" },
+      { "state": "running", "caption": "trace flows" },
+      { "state": "review", "caption": "span linked" },
+      { "state": "failed", "caption": "broken hop" }
+    ]
+  },
+  "log-lynx": {
+    "title": "Log Lynx",
+    "subtitle": "finds the exact line",
+    "best": [
+      { "state": "idle", "caption": "ears forward" },
+      { "state": "waiting", "caption": "line scent" },
+      { "state": "running", "caption": "paws scan" },
+      { "state": "review", "caption": "culprit found" },
+      { "state": "failed", "caption": "tail alert" }
+    ]
+  },
+  "database-mole": {
+    "title": "Database Mole",
+    "subtitle": "schema layers",
+    "best": [
+      { "state": "idle", "caption": "rows stacked" },
+      { "state": "waiting", "caption": "column waits" },
+      { "state": "running", "caption": "tunnel query" },
+      { "state": "review", "caption": "index checked" },
+      { "state": "failed", "caption": "bad join" }
+    ]
+  },
+  "fixture-fox": {
+    "title": "Fixture Fox",
+    "subtitle": "sample blocks arranged",
+    "best": [
+      { "state": "idle", "caption": "samples neat" },
+      { "state": "waiting", "caption": "mock ready" },
+      { "state": "running", "caption": "blocks move" },
+      { "state": "review", "caption": "fixture fits" },
+      { "state": "failed", "caption": "brittle sample" }
+    ]
+  },
+  "type-terrier": {
+    "title": "Type Terrier",
+    "subtitle": "compiler mismatch hunter",
+    "best": [
+      { "state": "idle", "caption": "ears perk" },
+      { "state": "waiting", "caption": "type scent" },
+      { "state": "running", "caption": "dig dig" },
+      { "state": "review", "caption": "shape fits" },
+      { "state": "failed", "caption": "overload bark" }
+    ]
+  },
+  "python-pangolin": {
+    "title": "Python Pangolin",
+    "subtitle": "indentation scales",
+    "best": [
+      { "state": "idle", "caption": "scales folded" },
+      { "state": "waiting", "caption": "indent waits" },
+      { "state": "running", "caption": "scales flip" },
+      { "state": "review", "caption": "pep check" },
+      { "state": "failed", "caption": "tab bite" }
+    ]
+  },
+  "borrow-badger": {
+    "title": "Borrow Badger",
+    "subtitle": "guards one token",
+    "best": [
+      { "state": "idle", "caption": "token safe" },
+      { "state": "waiting", "caption": "owner?" },
+      { "state": "running", "caption": "loan tracked" },
+      { "state": "review", "caption": "lifetime ok" },
+      { "state": "failed", "caption": "moved value" }
+    ]
+  },
+  "goroutine-gecko": {
+    "title": "Goroutine Gecko",
+    "subtitle": "sticky concurrency",
+    "best": [
+      { "state": "idle", "caption": "lanes quiet" },
+      { "state": "waiting", "caption": "channel wait" },
+      { "state": "running", "caption": "toes schedule" },
+      { "state": "review", "caption": "race checked" },
+      { "state": "failed", "caption": "deadlock spot" }
+    ]
+  },
+  "react-gecko": {
+    "title": "React Gecko",
+    "subtitle": "component state visible",
+    "best": [
+      { "state": "idle", "caption": "props still" },
+      { "state": "waiting", "caption": "effect waits" },
+      { "state": "running", "caption": "state flips" },
+      { "state": "review", "caption": "render clean" },
+      { "state": "failed", "caption": "hydration hiss" }
+    ]
+  },
+  "design-finch": {
+    "title": "Design Finch",
+    "subtitle": "spacing has feelings",
+    "best": [
+      { "state": "idle", "caption": "grid perched" },
+      { "state": "waiting", "caption": "pixel held" },
+      { "state": "running", "caption": "tiny nudge" },
+      { "state": "review", "caption": "baseline checked" },
+      { "state": "failed", "caption": "one px off" }
+    ]
+  },
+  "release-rocket": {
+    "title": "Release Rocket",
+    "subtitle": "controlled launch",
+    "best": [
+      { "state": "idle", "caption": "fins locked" },
+      { "state": "waiting", "caption": "go/no-go" },
+      { "state": "running", "caption": "flame attached" },
+      { "state": "review", "caption": "telemetry green" },
+      { "state": "failed", "caption": "scrub launch" }
+    ]
+  },
+  "incident-axolotl": {
+    "title": "Incident Axolotl",
+    "subtitle": "calm escalation",
+    "best": [
+      { "state": "idle", "caption": "frills breathe" },
+      { "state": "waiting", "caption": "pager quiet" },
+      { "state": "running", "caption": "status steady" },
+      { "state": "review", "caption": "postmortem calm" },
+      { "state": "failed", "caption": "severity up" }
+    ]
+  },
+  "docs-jelly": {
+    "title": "Docs Jelly",
+    "subtitle": "knowledge untangled",
+    "best": [
+      { "state": "idle", "caption": "tendrils tidy" },
+      { "state": "waiting", "caption": "draft floats" },
+      { "state": "running", "caption": "sections form" },
+      { "state": "review", "caption": "heading clean" },
+      { "state": "failed", "caption": "stale page" }
+    ]
+  },
+  "refactor-rabbit": {
+    "title": "Refactor Rabbit",
+    "subtitle": "small moves, cleaner code",
+    "best": [
+      { "state": "idle", "caption": "blocks tidy" },
+      { "state": "waiting", "caption": "hop held" },
+      { "state": "running", "caption": "shape improves" },
+      { "state": "review", "caption": "diff smaller" },
+      { "state": "failed", "caption": "rabbit hole" }
+    ]
+  },
+  "approval-alpaca": {
+    "title": "Approval Alpaca",
+    "subtitle": "patient handoff",
+    "best": [
+      { "state": "idle", "caption": "wool calm" },
+      { "state": "waiting", "caption": "needs human" },
+      { "state": "running", "caption": "handoff ready" },
+      { "state": "review", "caption": "stamp checked" },
+      { "state": "failed", "caption": "no approver" }
+    ]
+  },
+  "sandbox-seal": {
+    "title": "Sandbox Seal",
+    "subtitle": "safe experiment boundary",
+    "best": [
+      { "state": "idle", "caption": "boundary soft" },
+      { "state": "waiting", "caption": "flipper holds" },
+      { "state": "running", "caption": "test splash" },
+      { "state": "review", "caption": "safe enough" },
+      { "state": "failed", "caption": "leak patched" }
+    ]
+  },
+  "security-sentinel": {
+    "title": "Security Sentinel",
+    "subtitle": "quiet trust boundary",
+    "best": [
+      { "state": "idle", "caption": "checkpoint still" },
+      { "state": "waiting", "caption": "gate listens" },
+      { "state": "running", "caption": "scan sweep" },
+      { "state": "review", "caption": "boundary clear" },
+      { "state": "failed", "caption": "trust break" }
+    ]
+  },
+  "pixel-penguin": {
+    "title": "Pixel Penguin",
+    "subtitle": "blocky system checks",
+    "best": [
+      { "state": "idle", "caption": "squares quiet" },
+      { "state": "waiting", "caption": "server chill" },
+      { "state": "running", "caption": "block waddle" },
+      { "state": "review", "caption": "panel green" },
+      { "state": "failed", "caption": "ice crack" }
+    ]
+  },
+  "container-hermit": {
+    "title": "Container Hermit",
+    "subtitle": "local services shell",
+    "best": [
+      { "state": "idle", "caption": "ports quiet" },
+      { "state": "waiting", "caption": "shell waits" },
+      { "state": "running", "caption": "module starts" },
+      { "state": "review", "caption": "health check" },
+      { "state": "failed", "caption": "port clash" }
+    ]
+  },
+  "cluster-puffer": {
+    "title": "Cluster Puffer",
+    "subtitle": "balanced scheduling",
+    "best": [
+      { "state": "idle", "caption": "nodes calm" },
+      { "state": "waiting", "caption": "pod pending" },
+      { "state": "running", "caption": "spots balance" },
+      { "state": "review", "caption": "capacity read" },
+      { "state": "failed", "caption": "node pressure" }
+    ]
+  },
+  "search-salmon": {
+    "title": "Search Salmon",
+    "subtitle": "upstream through results",
+    "best": [
+      { "state": "idle", "caption": "query still" },
+      { "state": "waiting", "caption": "result scent" },
+      { "state": "running", "caption": "upstream search" },
+      { "state": "review", "caption": "best match" },
+      { "state": "failed", "caption": "no hits" }
+    ]
+  },
+  "schema-snail": {
+    "title": "Schema Snail",
+    "subtitle": "careful version bands",
+    "best": [
+      { "state": "idle", "caption": "bands aligned" },
+      { "state": "waiting", "caption": "migration waits" },
+      { "state": "running", "caption": "one notch" },
+      { "state": "review", "caption": "version checked" },
+      { "state": "failed", "caption": "rollback slime" }
+    ]
+  },
+  "roadmap-raven": {
+    "title": "Roadmap Raven",
+    "subtitle": "timeline feathers",
+    "best": [
+      { "state": "idle", "caption": "lanes perched" },
+      { "state": "waiting", "caption": "date unclear" },
+      { "state": "running", "caption": "feathers reorder" },
+      { "state": "review", "caption": "priority watched" },
+      { "state": "failed", "caption": "promise crow" }
+    ]
+  },
+  "meeting-moth": {
+    "title": "Meeting Moth",
+    "subtitle": "chatter to summary",
+    "best": [
+      { "state": "idle", "caption": "wings folded" },
+      { "state": "waiting", "caption": "agenda?" },
+      { "state": "running", "caption": "notes gather" },
+      { "state": "review", "caption": "summary clean" },
+      { "state": "failed", "caption": "action fog" }
+    ]
+  },
+  "notebook-newt": {
+    "title": "Notebook Newt",
+    "subtitle": "cell order visible",
+    "best": [
+      { "state": "idle", "caption": "cells still" },
+      { "state": "waiting", "caption": "kernel waits" },
+      { "state": "running", "caption": "tail marks" },
+      { "state": "review", "caption": "output checked" },
+      { "state": "failed", "caption": "cell broke" }
+    ]
+  },
+  "migration-mantis": {
+    "title": "Migration Mantis",
+    "subtitle": "old path to new path",
+    "best": [
+      { "state": "idle", "caption": "blade still" },
+      { "state": "waiting", "caption": "source held" },
+      { "state": "running", "caption": "block moved" },
+      { "state": "review", "caption": "path verified" },
+      { "state": "failed", "caption": "half migrated" }
+    ]
+  },
+  "demo-dolphin": {
+    "title": "Demo Dolphin",
+    "subtitle": "smooth story beats",
+    "best": [
+      { "state": "idle", "caption": "stage calm" },
+      { "state": "waiting", "caption": "cue held" },
+      { "state": "running", "caption": "story arcs" },
+      { "state": "review", "caption": "demo lands" },
+      { "state": "failed", "caption": "wifi moment" }
+    ]
+  },
+  "terminal-ghost": {
+    "title": "Terminal Ghost",
+    "subtitle": "friendly CLI companion",
+    "best": [
+      { "state": "idle", "caption": "prompt quiet" },
+      { "state": "waiting", "caption": "cursor blinks" },
+      { "state": "running", "caption": "shell drifts" },
+      { "state": "review", "caption": "command checked" },
+      { "state": "failed", "caption": "boo stack" }
+    ]
+  },
+  "review-owl": {
+    "title": "Review Owl",
+    "subtitle": "calm PR attention",
+    "best": [
+      { "state": "idle", "caption": "perched review" },
+      { "state": "waiting", "caption": "diff awaits" },
+      { "state": "running", "caption": "head turns" },
+      { "state": "review", "caption": "eyes wide" },
+      { "state": "failed", "caption": "missed edge" }
+    ]
+  },
+  "bug-hunter": {
+    "title": "Bug Hunter",
+    "subtitle": "debugging detective",
+    "best": [
+      { "state": "idle", "caption": "net ready" },
+      { "state": "waiting", "caption": "tracks found" },
+      { "state": "running", "caption": "chase begins" },
+      { "state": "review", "caption": "case closed" },
+      { "state": "failed", "caption": "bug escaped" }
+    ]
+  },
+  "bug-searcher": {
+    "title": "Bug Searcher",
+    "subtitle": "searches the weird bit",
+    "best": [
+      { "state": "idle", "caption": "magnifier down" },
+      { "state": "waiting", "caption": "clue pending" },
+      { "state": "running", "caption": "scan the stack" },
+      { "state": "review", "caption": "pattern found" },
+      { "state": "failed", "caption": "false lead" }
+    ]
+  },
+  "rubber-duck-2-0": {
+    "title": "Rubber Duck 2.0",
+    "subtitle": "classic debug ritual",
+    "best": [
+      { "state": "idle", "caption": "listening" },
+      { "state": "waiting", "caption": "explain it" },
+      { "state": "running", "caption": "quack logic" },
+      { "state": "review", "caption": "there it is" },
+      { "state": "failed", "caption": "try again" }
+    ]
+  },
+  "token-vampire": {
+    "title": "Token Vampire",
+    "subtitle": "context limit joke",
+    "best": [
+      { "state": "idle", "caption": "cape still" },
+      { "state": "waiting", "caption": "tokens?" },
+      { "state": "running", "caption": "context drains" },
+      { "state": "review", "caption": "budget counted" },
+      { "state": "failed", "caption": "too many tokens" }
+    ]
+  },
+  "ladybug-dev": {
+    "title": "Ladybug Dev",
+    "subtitle": "tiny bug companion",
+    "best": [
+      { "state": "idle", "caption": "spots quiet" },
+      { "state": "waiting", "caption": "leaf pause" },
+      { "state": "running", "caption": "bug crawl" },
+      { "state": "review", "caption": "spots checked" },
+      { "state": "failed", "caption": "little crash" }
+    ]
+  },
+  "toffee": {
+    "title": "Toffee",
+    "subtitle": "cream toy poodle",
+    "best": [
+      { "state": "idle", "caption": "soft sit" },
+      { "state": "waiting", "caption": "treat?" },
+      { "state": "running", "caption": "tiny trot" },
+      { "state": "review", "caption": "head tilt" },
+      { "state": "waving", "caption": "paw hello" }
+    ]
+  },
+  "rozi": {
+    "title": "Rozi",
+    "subtitle": "blue-eyed cat calm",
+    "best": [
+      { "state": "idle", "caption": "tail still" },
+      { "state": "waiting", "caption": "slow blink" },
+      { "state": "running", "caption": "soft steps" },
+      { "state": "review", "caption": "cat audit" },
+      { "state": "failed", "caption": "cup pushed" }
+    ]
+  },
+  "tabby": {
+    "title": "Tabby",
+    "subtitle": "compact tabby focus",
+    "best": [
+      { "state": "idle", "caption": "loaf mode" },
+      { "state": "waiting", "caption": "tail tap" },
+      { "state": "running", "caption": "desk patrol" },
+      { "state": "review", "caption": "whisker check" },
+      { "state": "failed", "caption": "keyboard sit" }
+    ]
+  }
+}

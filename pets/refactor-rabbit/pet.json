@@ -1,0 +1,6 @@
+{
+  "id": "refactor-rabbit",
+  "displayName": "Refactor Rabbit",
+  "description": "A tidy refactor rabbit that rearranges attached code blocks into simpler shapes.",
+  "spritesheetPath": "spritesheet.webp"
+}

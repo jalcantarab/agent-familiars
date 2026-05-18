@@ -1,0 +1,6 @@
+{
+  "id": "signal-surface",
+  "displayName": "Signal Surface",
+  "description": "A quiet status surface that uses color, scan lines, and glassy motion to make Codex state changes readable at a glance.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "build-bot",
+  "displayName": "Build Bot",
+  "description": "A tiny build robot whose chest panel and antenna show build progress, input, and failure.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,131 @@
+{
+  "spotlight": {
+    "description": "One familiar, several character-specific states, sized for README cards and social previews.",
+    "title": "Familiar Spotlight",
+    "layout": "spotlight",
+    "theme": "familiars-dark",
+    "width": 640,
+    "height": 360,
+    "fps": 12,
+    "beatSeconds": 0.85,
+    "beats": "profile.best",
+    "outputs": {
+      "formats": ["gif", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "readme": {
+    "description": "A smaller, quiet spotlight preset for documentation pages.",
+    "title": "Familiar Preview",
+    "layout": "spotlight",
+    "theme": "familiars-dark",
+    "width": 480,
+    "height": 270,
+    "fps": 10,
+    "beatSeconds": 0.8,
+    "beats": "profile.best",
+    "outputs": {
+      "formats": ["gif", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "all-states": {
+    "description": "One familiar cycling through the full nine-state Codex pet atlas.",
+    "title": "All States",
+    "layout": "spotlight",
+    "theme": "familiars-dark",
+    "width": 640,
+    "height": 360,
+    "fps": 12,
+    "beatSeconds": 0.65,
+    "beats": "all-states",
+    "outputs": {
+      "formats": ["gif", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "comparison": {
+    "description": "Several familiars side by side, useful for packs and decision guides.",
+    "title": "Familiar Comparison",
+    "layout": "comparison",
+    "theme": "familiars-dark",
+    "width": 960,
+    "height": 540,
+    "fps": 10,
+    "beatSeconds": 0.75,
+    "beats": "all-states",
+    "outputs": {
+      "formats": ["gif", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "none"
+    },
+    "captions": {
+      "mode": "small"
+    }
+  },
+  "social": {
+    "description": "A cleaner 16:9 export for sharing a familiar or pack outside the repo.",
+    "title": "Familiars",
+    "layout": "spotlight",
+    "theme": "repo-dark",
+    "width": 1280,
+    "height": 720,
+    "fps": 12,
+    "beatSeconds": 0.9,
+    "beats": "profile.best",
+    "outputs": {
+      "formats": ["mp4", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "repo",
+      "logo": "zentrik",
+      "footer": "zentrik.ai",
+      "watermark": "subtle"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "clean": {
+    "description": "A neutral, no-brand preset for people using Familiars in their own docs.",
+    "title": "Familiar Preview",
+    "layout": "spotlight",
+    "theme": "review-light",
+    "width": 640,
+    "height": 360,
+    "fps": 12,
+    "beatSeconds": 0.85,
+    "beats": "profile.best",
+    "outputs": {
+      "formats": ["gif", "poster"],
+      "dir": "output/sequences"
+    },
+    "brand": {
+      "mode": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  }
+}

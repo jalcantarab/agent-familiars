@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "selectionPrinciple": "The first ten should make the repo feel native to agentic software work: terminal flow, review, debugging, context limits, CI, patching, and product intent.",
+  "pets": [
+    {
+      "rank": 1,
+      "id": "zentri",
+      "displayName": "Zentri",
+      "status": "seeded",
+      "whyFlagship": "Ownable Zentrik brand mascot and the clearest bridge from product intent to agent work.",
+      "audienceMoment": "A PM or founder is shaping product work with Codex open beside planning, specs, and implementation.",
+      "characterCore": "An alert folded-paper crane with precise crease logic, quiet confidence, and a cyan intent accent.",
+      "visualLock": "White origami facets, charcoal crease lines, long thin legs, small attentive eye, restrained cyan fold accent.",
+      "animationPrinciples": [
+        "motion should feel like paper folds loading and unfolding, not a normal bird walk",
+        "cyan accent should behave like a product-intent signal, never like a detached glow",
+        "keep gestures crisp, economical, and legible at the smallest pet size"
+      ],
+      "stateAnimations": {
+        "idle": "Micro-breath through two paper chest folds; eye blinks once while the neck crease tightens and relaxes.",
+        "running-right": "Rightward drag as a careful origami stride: legs alternate in angular ruler-like steps while the folded tail counterbalances.",
+        "running-left": "Leftward drag with the same angular gait mirrored in intent, but preserve the cyan fold on the readable body side.",
+        "waving": "One wing unfolds into a small triangular salute, then refolds along the original crease line.",
+        "jumping": "Origami spring-hop: knees compress, body lifts as a single folded shape, tail fan opens slightly at the peak, then refolds.",
+        "failed": "Neck crease collapses forward and the chest facet caves inward, like a paper draft that needs refolding.",
+        "waiting": "Head tilts toward the user while one wing opens like a small approval tab.",
+        "running": "Focused product-processing loop: beak scans left-right, cyan fold ticks once, wing facets make tiny sorting motions.",
+        "review": "Long-neck inspection pose: head narrows toward the work, eye squints, one foot shifts into a balanced reviewer stance."
+      }
+    },
+    {
+      "rank": 2,
+      "id": "terminal-ghost",
+      "displayName": "Terminal Ghost",
+      "status": "seeded",
+      "whyFlagship": "The most instantly legible coding-agent pet: terminal work made friendly.",
+      "audienceMoment": "A developer is running shell commands, watching logs, and waiting for tool output.",
+      "characterCore": "A tiny CLI ghost whose face acts like a prompt cursor.",
+      "visualLock": "Soft ghost body, terminal-caret eyes, cyan command-line accent, no horror mood.",
+      "animationPrinciples": [
+        "no legs; locomotion is terminal drift and prompt snapping",
+        "cursor-like timing should drive the personality",
+        "movement should feel light, not floaty-generic"
+      ],
+      "stateAnimations": {
+        "idle": "Hover barely above baseline while the prompt-caret eye blinks like a terminal cursor.",
+        "running-right": "Slides right in short command-prompt advances, body trailing like a typed character catching up.",
+        "running-left": "Backspaces left in tiny snap steps, with the tail curl lagging one frame behind.",
+        "waving": "Raises one wispy arm into a small shell-prompt flourish shaped like a caret.",
+        "jumping": "No jump with feet: the ghost pops upward like a terminal line executing, then settles with a cursor blink.",
+        "failed": "Prompt eyes turn into a small broken cursor rhythm; body sinks as if the command returned nonzero.",
+        "waiting": "Holds a visible expectant cursor posture: body stills, eyes blink at a slower prompt cadence.",
+        "running": "Command-processing loop: subtle left-right scan, cyan prompt pulse, tiny terminal sparks attached to the body edge.",
+        "review": "Leans over an invisible prompt line, one eye narrows into a caret while the lower body forms a question-shaped curl without drawing punctuation."
+      }
+    },
+    {
+      "rank": 3,
+      "id": "review-owl",
+      "displayName": "Review Owl",
+      "status": "seeded",
+      "whyFlagship": "Review is one of the clearest Codex states; an owl makes it memorable without being noisy.",
+      "audienceMoment": "A maintainer is reading diffs, evaluating suggestions, and deciding what to merge.",
+      "characterCore": "A calm, deliberate owl that sees the line-level issue before anyone else.",
+      "visualLock": "Round eyes, compact body, small ear tufts, folded wings, reviewer stillness.",
+      "animationPrinciples": [
+        "head movement is the main animation language",
+        "wing gestures should feel like page turns, not flapping",
+        "review state must be stronger than idle"
+      ],
+      "stateAnimations": {
+        "idle": "Slow eyelid blink and tiny feather settling, with the body nearly still like a reviewer thinking.",
+        "running-right": "Short sidestep hops to the right, talons placing carefully while the head stays locked on target.",
+        "running-left": "Short sidestep hops to the left with head-first anticipation and delayed body follow-through.",
+        "waving": "One wing opens in a restrained page-turn greeting, then folds back under the chest.",
+        "jumping": "Compact perch-hop: talons tuck, body lifts vertically, ear tufts bounce, then lands with controlled stillness.",
+        "failed": "Eyes half-close, ear tufts droop, and the chest feathers flatten in a disappointed review note.",
+        "waiting": "Head tilts almost upside-down in a patient 'I need a decision' posture.",
+        "running": "Active review loop: eyes scan line by line, head ticks in tiny increments, wing edge marks a virtual diff margin.",
+        "review": "Signature owl inspection: head rotates, eyes widen, then narrow into a decisive reviewer squint."
+      }
+    },
+    {
+      "rank": 4,
+      "id": "bug-hunter",
+      "displayName": "Bug Hunter",
+      "status": "seeded",
+      "whyFlagship": "Debugging is universal and the detective framing gives state animations immediate purpose.",
+      "audienceMoment": "A developer is chasing a regression, reading stack traces, or bisecting a weird failure.",
+      "characterCore": "Tiny detective bug with investigative focus and quick scuttling precision.",
+      "visualLock": "Compact bug body, detective posture, antennae as attention indicators, optional attached magnifier if already present.",
+      "animationPrinciples": [
+        "antennae should signal attention and state",
+        "movement is scuttle-and-inspect rather than mammal running",
+        "avoid loose clues, floating symbols, or generic sparkle effects"
+      ],
+      "stateAnimations": {
+        "idle": "Antennae sweep two small arcs while the body rocks on tiny feet as if listening for a bug.",
+        "running-right": "Rapid low scuttle to the right; feet alternate in clustered pairs while antennae lean forward.",
+        "running-left": "Rapid low scuttle to the left with rear legs catching up in a quick detective shuffle.",
+        "waving": "One front leg gives a quick investigative salute while antennae lift together.",
+        "jumping": "Springy bug-hop: legs compress under the shell, antennae flick up at the peak, then all feet replant.",
+        "failed": "Antennae droop and the body folds low, as if the trail went cold.",
+        "waiting": "Raises one front leg and holds still, antennae pointed at the user for the missing clue.",
+        "running": "Bug-hunt loop: antennae scan, front legs tap, body pivots between two invisible evidence points.",
+        "review": "Leans into a close inspection pose; antennae form a tight focus angle and the front legs brace."
+      }
+    },
+    {
+      "rank": 5,
+      "id": "rubber-duck-2-0",
+      "displayName": "Rubber Duck 2.0",
+      "status": "seeded",
+      "whyFlagship": "Rubber-duck debugging is familiar, and the AI update makes it culturally sharp.",
+      "audienceMoment": "A developer explains the problem to the assistant and realizes the bug while talking.",
+      "characterCore": "A suspiciously helpful desk duck that debugs by listening.",
+      "visualLock": "Bright duck silhouette, beak-forward profile, friendly but slightly knowing expression.",
+      "animationPrinciples": [
+        "movement is squeaky bobbing and waddling, not athletic running",
+        "beak and body squash should sell personality",
+        "avoid water unless the base identity includes it"
+      ],
+      "stateAnimations": {
+        "idle": "Subtle rubber bob with a tiny beak squeeze and one knowing blink.",
+        "running-right": "Squeaky desk-waddle to the right: body squashes, feet paddle in short flat steps.",
+        "running-left": "Squeaky desk-waddle to the left with beak leading and tail wobbling after each step.",
+        "waving": "Tiny wing nub lifts in a comic half-wave while the beak tilts like it is listening.",
+        "jumping": "Rubber squeeze-pop: body compresses, pops upward as a soft toy shape, then rebounds without dust.",
+        "failed": "Duck deflates slightly, beak droops, and the body leans like it heard the wrong explanation.",
+        "waiting": "Turns beak toward the user and holds a patient listening pose.",
+        "running": "Debug-listening loop: beak nods, body bobs, eye narrows as if following the explanation.",
+        "review": "Beak points at the work, head tilts skeptically, and the body freezes into a 'say that again' posture."
+      }
+    },
+    {
+      "rank": 6,
+      "id": "token-vampire",
+      "displayName": "Token Vampire",
+      "status": "seeded",
+      "whyFlagship": "Heavy Codex users immediately understand token/context anxiety; the joke is native to the tool.",
+      "audienceMoment": "A power user is pushing long context, rate limits, or multi-agent workflows.",
+      "characterCore": "A tiny smug bat-vampire who feeds on context but tries to look useful.",
+      "visualLock": "Small bat body, cape-like wings, little fangs, cyan token accent as a held or attached detail.",
+      "animationPrinciples": [
+        "locomotion should be wing beats and cape snaps, not leg running",
+        "token motif must remain attached to the pet",
+        "keep the joke playful rather than menacing"
+      ],
+      "stateAnimations": {
+        "idle": "Cape wings pulse slowly while fangs peek out for one smug blink.",
+        "running-right": "Flutters right with alternating wing beats and a cape corner snapping behind.",
+        "running-left": "Flutters left with the token accent tucked close to the body as wings alternate.",
+        "waving": "One cape wing lifts in an overly formal vampire greeting.",
+        "jumping": "Bat-hop takeoff: body rises on a wing snap, hangs for a beat, then folds wings back down.",
+        "failed": "Cape collapses around the body and fangs disappear in a tiny embarrassed hunch.",
+        "waiting": "Hovers in place with wings held open, staring at the user like it wants more context.",
+        "running": "Context-drinking loop: attached cyan token accent pulses while the bat scans and folds its cape.",
+        "review": "Narrows eyes over the token accent, cape framing the face like a tiny reviewer cloak."
+      }
+    },
+    {
+      "rank": 7,
+      "id": "merge-mammoth",
+      "displayName": "Merge Mammoth",
+      "status": "planned",
+      "whyFlagship": "Merge conflicts are painful, visual, and emotionally perfect for a memorable agent companion.",
+      "audienceMoment": "A developer is resolving a long-lived branch or untangling conflicting changes.",
+      "characterCore": "A huge but gentle mammoth that untangles branches with patient trunk work.",
+      "visualLock": "Compact woolly body, small tusks, trunk shaped for knot/branch gestures, warm patience.",
+      "animationPrinciples": [
+        "heavy mass should affect every movement",
+        "trunk is the primary tool, not generic hands",
+        "avoid detached branch icons unless physically held by the trunk"
+      ],
+      "stateAnimations": {
+        "idle": "Slow wool ripple and trunk sway, with one foot settling under the body weight.",
+        "running-right": "Heavy rightward trudge: front foot plants, body lags, trunk points toward the merge target.",
+        "running-left": "Heavy leftward trudge with tusks leading and rear body catching up one beat late.",
+        "waving": "Trunk curls into a friendly hook-wave, then uncurls back against the tusk.",
+        "jumping": "Not a normal jump: a tiny mammoth hop where knees compress deeply and the body barely lifts.",
+        "failed": "Trunk drops into a knot shape, tusks tilt down, and the wool mass slumps.",
+        "waiting": "Trunk holds an invisible conflict strand toward the user, asking which side to keep.",
+        "running": "Merge-resolution loop: trunk pulls two attached strands together, pauses, then smooths the wool line.",
+        "review": "Peers over one tusk, trunk tracing an invisible diff boundary with slow precision."
+      }
+    },
+    {
+      "rank": 8,
+      "id": "ci-phoenix",
+      "displayName": "CI Phoenix",
+      "status": "planned",
+      "whyFlagship": "CI failure and recovery are the emotional loop of modern engineering; phoenix rebirth is exact.",
+      "audienceMoment": "A maintainer is watching checks fail, rerun, recover, and finally pass.",
+      "characterCore": "A compact phoenix whose flame-feathers represent rebuilds and recoveries.",
+      "visualLock": "Small bird body, flame-feather silhouette, ember accent attached to wings and tail.",
+      "animationPrinciples": [
+        "effects must be attached flame-feathers, not loose particles",
+        "failure should become ash posture, recovery should be visible in the body",
+        "running is build energy, not foot running"
+      ],
+      "stateAnimations": {
+        "idle": "Flame-feather tips flicker in a contained loop while the bird breathes like a pilot light.",
+        "running-right": "Glides right on two compact wing beats, tail flame streaming as attached feather shapes.",
+        "running-left": "Glides left with a rebuild-sweep wing cadence and tail flame tucked close.",
+        "waving": "Wing opens in a small flame-feather fan, then closes without shedding sparks.",
+        "jumping": "Rekindle hop: body dips into ember shape, lifts in a flame-feather flare, then lands brighter.",
+        "failed": "Feathers dim and fold into a soft ash-gray hunch before one ember reappears.",
+        "waiting": "Holds wings half-open like paused checks, ember tips steady but low.",
+        "running": "Build loop: flame-feathers pulse from base to tip as the head scans like a check runner.",
+        "review": "Phoenix leans into the result, one wing shielding the eyes while tail ember steadies."
+      }
+    },
+    {
+      "rank": 9,
+      "id": "patch-panda",
+      "displayName": "Patch Panda",
+      "status": "planned",
+      "whyFlagship": "Patch application is the core agent action; a careful panda gives it charm and precision.",
+      "audienceMoment": "Codex is applying a small fix, editing files, or preparing a patch for review.",
+      "characterCore": "A meticulous panda placing tiny patches with careful paws.",
+      "visualLock": "Round panda silhouette, patch-shaped paw pads or satchel, calm repair energy.",
+      "animationPrinciples": [
+        "patches should be attached to paws or body, not floating",
+        "motion should be careful and tactile",
+        "avoid generic typing; this pet repairs"
+      ],
+      "stateAnimations": {
+        "idle": "Panda sits compactly and pats one patch pad against the belly in a tiny tidy loop.",
+        "running-right": "Soft rightward roll-step with patch satchel tucked close and paws alternating low.",
+        "running-left": "Soft leftward roll-step, head leading and round body catching up with a gentle sway.",
+        "waving": "One paw lifts, showing a little patch pad as a repair greeting.",
+        "jumping": "Round panda bounce: squat, soft lift, belly squash, and controlled landing.",
+        "failed": "Patch pad peels halfway in the paw and the panda lowers its head in repair frustration.",
+        "waiting": "Holds a patch between both paws toward the user, asking where it should go.",
+        "running": "Patch-application loop: paw presses an attached patch, smooths the edge, checks the seam, repeats.",
+        "review": "Leans close to inspect the patch edge with one paw bracing the body."
+      }
+    },
+    {
+      "rank": 10,
+      "id": "product-crane",
+      "displayName": "Product Crane",
+      "status": "planned",
+      "whyFlagship": "The repo needs one public, non-Zentrik product-work mascot for PMs and AI-native teams.",
+      "audienceMoment": "A product lead is turning user intent, roadmap pressure, and implementation detail into a coherent task.",
+      "characterCore": "A precise planning crane that organizes intent with calm, long-form attention.",
+      "visualLock": "Elegant crane silhouette, paper-tab wing tips, subtle roadmap chevron feather marks, no readable UI.",
+      "animationPrinciples": [
+        "movement should feel like prioritization and sequencing",
+        "avoid literal boards, sticky notes, or text",
+        "wing tips act like tabs being sorted"
+      ],
+      "stateAnimations": {
+        "idle": "Crane balances on one leg while two wing-tip tabs settle into alignment.",
+        "running-right": "Steps right in deliberate roadmap beats: plant, pause, align tail, continue.",
+        "running-left": "Steps left with head low and wing tabs trailing like reordered priorities.",
+        "waving": "Wing opens into three small tab-like feathers, then folds back in order.",
+        "jumping": "Planning lift: one leg compresses, body rises in a graceful arc, wing tabs tuck at the peak.",
+        "failed": "Wing tabs fall out of alignment and the neck lowers as if intent was lost.",
+        "waiting": "Extends one tabbed wing toward the user for prioritization input.",
+        "running": "Intent-sorting loop: head scans, wing tabs reorder, body gives one decisive nod.",
+        "review": "Cranes neck forward into a traceable inspection line while wing tabs lock into final order."
+      }
+    }
+  ]
+}

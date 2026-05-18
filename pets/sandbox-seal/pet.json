@@ -1,0 +1,6 @@
+{
+  "id": "sandbox-seal",
+  "displayName": "Sandbox Seal",
+  "description": "A compact sandbox seal that pats safe experiment boundaries into place before anything escapes.",
+  "spritesheetPath": "spritesheet.webp"
+}

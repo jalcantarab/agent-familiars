@@ -1,0 +1,6 @@
+{
+  "id": "test-tortoise",
+  "displayName": "Test Tortoise",
+  "description": "A slow reliable test-runner tortoise whose shell panels move through a tidy test matrix.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "thread-totem",
+  "displayName": "Thread Totem",
+  "description": "A bead-and-cord familiar that turns agent state into paused, flowing, aligned, or tangled threads.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "description": "Original workflow-native pet lines that can feel familiar to modern engineering and product teams without copying company brands, logos, mascots, product UI, slogans, or exact palettes.",
+  "selectionPrinciple": "Make the work rhythm obvious while keeping every public pet name, silhouette, palette, and animation original.",
+  "brandSafetyRules": [
+    "Use workflow categories in public copy, not company-target mappings.",
+    "Do not use company names, product names, logos, wordmarks, slogans, screenshots, mascot silhouettes, exact icon geometry, or exact brand palettes unless explicitly licensed.",
+    "Avoid one-to-one mascot adjacency in the same tool category.",
+    "Reject generated rows that drift toward a protected mark or trade dress.",
+    "Keep recognizable cues inside body mechanics and state-specific motion."
+  ],
+  "firstProductionTwelve": [
+    "edge-finch",
+    "issue-lynx",
+    "vector-finch",
+    "block-badger",
+    "branch-beagle",
+    "worker-wisp",
+    "action-axolotl",
+    "checkout-gecko",
+    "trace-manta",
+    "model-moth",
+    "channel-chameleon",
+    "roadmap-raven"
+  ],
+  "lines": [
+    {
+      "rank": 1,
+      "id": "edge-finch",
+      "displayName": "Edge Finch",
+      "status": "planned",
+      "audienceWorkflow": "preview deploys, edge runtimes, design-engineering loops",
+      "whyItLands": "People who ship previews all day recognize the edge boundary and instant-settle behavior without needing any platform logo.",
+      "brandSafetyGuardrails": "No triangle marks, deployment platform names, black-white logo lockups, exact monochrome brand framing, or product UI.",
+      "visualLock": "A small aerodynamic finch with folded wing edges, neutral charcoal body, pale belly, and one muted green-blue readiness accent.",
+      "motionSignature": {
+        "locomotion": "Glides along an invisible edge line with tiny foot taps only when settling.",
+        "jumping": "Preview pop: wings fold tight, body rises in a short arc, then lands exactly on the same edge.",
+        "running": "Wing feathers open in near/far cadence like requests resolving across regions.",
+        "waiting": "One wing holds a tiny attached preview flap open toward the user.",
+        "failed": "Wing edge folds inward and the bird perches below the line.",
+        "review": "Leans over the edge with beak aligned to a single preview point."
+      }
+    },
+    {
+      "rank": 2,
+      "id": "issue-lynx",
+      "displayName": "Issue Lynx",
+      "status": "planned",
+      "audienceWorkflow": "issue triage, sprint planning, backlog grooming",
+      "whyItLands": "The character reads as fast, precise prioritization for teams that live in issue queues.",
+      "brandSafetyGuardrails": "No issue-tool logos, exact app colors, UI cards, ticket icons, or product names.",
+      "visualLock": "A lean lynx with alert ears, clean angular markings, and a tail tip that behaves like a priority marker.",
+      "motionSignature": {
+        "locomotion": "Silent prowl with shoulder-led steps and tail marking the next path.",
+        "jumping": "Short decision pounce with a pause before the landing.",
+        "running": "Eyes sweep side to side while the tail tip sorts a tiny attached priority trail.",
+        "waiting": "Sits low with one paw held above the next invisible issue.",
+        "failed": "Ears flatten and the tail marker bends out of sequence.",
+        "review": "Nose pins one point while the body stays ready to move."
+      }
+    },
+    {
+      "rank": 3,
+      "id": "vector-finch",
+      "displayName": "Vector Finch",
+      "status": "planned",
+      "audienceWorkflow": "design systems, prototypes, visual QA, design handoff",
+      "whyItLands": "Designers and design engineers recognize bezier-like control without a copied app mark.",
+      "brandSafetyGuardrails": "No multicolor logo stack, product UI, brand dots, exact tool palette, or component-library marks.",
+      "visualLock": "A compact finch with wing tips shaped like soft vector handles and a tiny alignment notch on the beak.",
+      "motionSignature": {
+        "locomotion": "Precise breakpoint hops with wings snapping to clean angles.",
+        "jumping": "Handle stretch: wing tips pull outward, lift the bird, then snap back into alignment.",
+        "running": "Beak nudges alignment while wing handles measure spacing.",
+        "waiting": "Balances on one foot with both wing tips held as editable handles.",
+        "failed": "Wing handles kink asymmetrically and feathers fluff like broken spacing.",
+        "review": "Beak traces an invisible baseline, then both handles lock."
+      }
+    },
+    {
+      "rank": 4,
+      "id": "block-badger",
+      "displayName": "Block Badger",
+      "status": "planned",
+      "audienceWorkflow": "docs, specs, internal knowledge bases, block editing",
+      "whyItLands": "The block motion feels native to docs tools while the animal and panels are original.",
+      "brandSafetyGuardrails": "No cube marks, wordmarks, black-white app icon language, screenshots, or exact editor UI.",
+      "visualLock": "A sturdy badger with blocky fur panels that remain part of the body.",
+      "motionSignature": {
+        "locomotion": "Grounded shuffle where body panels settle one after another.",
+        "jumping": "Panel lift: fur blocks compress, lift, and reseat in a cleaner stack.",
+        "running": "Paws reorder attached fur panels like moving content blocks.",
+        "waiting": "Holds one body panel half-raised, asking where it belongs.",
+        "failed": "Panels slide out of order and the badger crouches over them.",
+        "review": "Sniffs the top panel and taps twice to approve order."
+      }
+    },
+    {
+      "rank": 5,
+      "id": "branch-beagle",
+      "displayName": "Branch Beagle",
+      "status": "planned",
+      "audienceWorkflow": "repos, branches, pull requests, code review",
+      "whyItLands": "Repo users get the branch trail immediately without any code-host mascot adjacency.",
+      "brandSafetyGuardrails": "No cat/octopus hybrid, tanuki, bucket icons, host logos, PR UI, or exact code-host palettes.",
+      "visualLock": "A curious beagle with a tail that forks into two soft branch-like stripes inside the silhouette.",
+      "motionSignature": {
+        "locomotion": "Nose-led trot that follows a forked scent trail implied by tail movement.",
+        "jumping": "Merge hop: front paws lift, tail fork closes, then body lands aligned.",
+        "running": "Sniffs left and right before choosing the clean branch path.",
+        "waiting": "Sits with nose pointed at a fork, waiting for reviewer direction.",
+        "failed": "Tail fork knots and ears droop over the nose.",
+        "review": "One paw pins the chosen branch while eyes check the other."
+      }
+    },
+    {
+      "rank": 6,
+      "id": "worker-wisp",
+      "displayName": "Worker Wisp",
+      "status": "planned",
+      "audienceWorkflow": "serverless functions, edge workers, lightweight background jobs",
+      "whyItLands": "The tiny distributed flicker reads as function execution without clouds or lambda marks.",
+      "brandSafetyGuardrails": "No cloud logos, lambda glyphs, orange-cloud palettes, product names, or detached sparks.",
+      "visualLock": "A small floating wisp with three body-contained glow pockets and a simple face.",
+      "motionSignature": {
+        "locomotion": "Teleports by squash-stretch flicker while all glow pockets stay attached.",
+        "jumping": "Cold-start pulse: dims, brightens, rises, and settles into steady glow.",
+        "running": "Glow pockets activate in different corners of the body like distributed tasks.",
+        "waiting": "Hovers dim with one glow pocket ready but unlit.",
+        "failed": "Glow pockets desync and the outline sags.",
+        "review": "Compresses into a focused flame shape and checks one pocket."
+      }
+    },
+    {
+      "rank": 7,
+      "id": "action-axolotl",
+      "displayName": "Action Axolotl",
+      "status": "planned",
+      "audienceWorkflow": "CI steps, automation, job orchestration",
+      "whyItLands": "Frills can become a readable job-step meter that stays organic and original.",
+      "brandSafetyGuardrails": "No check-run logos, circular CI marks, pipeline UI, green check icons, or platform names.",
+      "visualLock": "A calm axolotl whose frills are shaped like step tabs, with a restrained coral and slate palette.",
+      "motionSignature": {
+        "locomotion": "Soft amphibian crawl with frills ticking before each step.",
+        "jumping": "Frill fan-hop: frills open in sequence, body lifts gently, then tabs close.",
+        "running": "Frills light in order as paws advance through a job loop.",
+        "waiting": "Holds the next frill tab half-open for input.",
+        "failed": "One frill tab folds backward and the body lowers.",
+        "review": "Lines up all frills symmetrically, then nods."
+      }
+    },
+    {
+      "rank": 8,
+      "id": "checkout-gecko",
+      "displayName": "Checkout Gecko",
+      "status": "planned",
+      "audienceWorkflow": "checkout, payments, commerce, reconciliation",
+      "whyItLands": "Commerce teams recognize the flow from selection to settled state without card or store marks.",
+      "brandSafetyGuardrails": "No card-network marks, shopping bags, payment logos, stripe patterns, or checkout UI.",
+      "visualLock": "A smooth gecko with belly scales that can align like a completed flow.",
+      "motionSignature": {
+        "locomotion": "Wall-crawl glide with belly scales rolling in order.",
+        "jumping": "Confirm pop: belly scales compress, body lifts, then scales lock cleanly.",
+        "running": "Scales pass a tiny attached token from snout to tail in one smooth loop.",
+        "waiting": "Pauses with a scale half-turned, waiting for authorization.",
+        "failed": "Scale order breaks and the gecko sticks flat to the ground.",
+        "review": "Turns sideways to expose balanced scales."
+      }
+    },
+    {
+      "rank": 9,
+      "id": "trace-manta",
+      "displayName": "Trace Manta",
+      "status": "planned",
+      "audienceWorkflow": "observability, traces, spans, performance reviews",
+      "whyItLands": "Tracing has a natural movement metaphor and does not require vendor marks.",
+      "brandSafetyGuardrails": "No dog mascots, honeycomb grids, vendor color systems, dashboards, or chart screenshots.",
+      "visualLock": "A manta ray with subtle fin lines that can ripple as attached spans.",
+      "motionSignature": {
+        "locomotion": "Smooth glide with fin ripples flowing downstream.",
+        "jumping": "No jump; a gentle bank upward, then a clean return to depth.",
+        "running": "Fin lines ripple in nested span order from center to tip.",
+        "waiting": "Hovers flat with the next ripple held halfway.",
+        "failed": "One fin folds unevenly and the body dips.",
+        "review": "Banks to expose one highlighted fin edge."
+      }
+    },
+    {
+      "rank": 10,
+      "id": "model-moth",
+      "displayName": "Model Moth",
+      "status": "planned",
+      "audienceWorkflow": "AI model work, prompt iteration, eval culture",
+      "whyItLands": "AI-tool users recognize eval passes and model attention without using lab marks.",
+      "brandSafetyGuardrails": "No AI-lab logos, blossoms, spirals, dots, model names, chat UI, or branded palettes.",
+      "visualLock": "A quiet moth with layered wings, small antennae, and body-contained evaluation bands.",
+      "motionSignature": {
+        "locomotion": "Soft wing flutter with antennae leading direction changes.",
+        "jumping": "Attention lift: wings close, body rises, then opens into a controlled hover.",
+        "running": "Wing bands pass through three evaluation phases and return to neutral.",
+        "waiting": "Antennae pause forward while wing bands stay unlit.",
+        "failed": "Wings fold too tight and bands go uneven.",
+        "review": "Antennae form a small focus angle while one wing band steadies."
+      }
+    },
+    {
+      "rank": 11,
+      "id": "channel-chameleon",
+      "displayName": "Channel Chameleon",
+      "status": "planned",
+      "audienceWorkflow": "team chat, threads, async collaboration, workflow automation",
+      "whyItLands": "Threaded communication maps well to a curling tail and subtle body-band shifts.",
+      "brandSafetyGuardrails": "No hash-logo shapes, exact four-color mark palettes, chat UI, screenshots, or workspace names.",
+      "visualLock": "A small chameleon with muted body bands and a tail that coils into thread-like loops.",
+      "motionSignature": {
+        "locomotion": "Slow sticky walk while the tail uncoils just enough to lead.",
+        "jumping": "Tiny branch-hop with tail coiling first and body following.",
+        "running": "Body bands shift in muted channel cadence as the tail tightens a thread.",
+        "waiting": "One eye watches the user while the tail holds an unfinished loop.",
+        "failed": "Bands desaturate and the tail knot doubles back.",
+        "review": "Both eyes converge on the same tail loop."
+      }
+    },
+    {
+      "rank": 12,
+      "id": "roadmap-raven",
+      "displayName": "Roadmap Raven",
+      "status": "planned",
+      "audienceWorkflow": "product strategy, prioritization, launch planning",
+      "whyItLands": "PMs recognize the prioritization behavior without any roadmap-tool UI.",
+      "brandSafetyGuardrails": "No PM-tool marks, product-board screenshots, exact kanban cards, or product names.",
+      "visualLock": "A raven with wing feathers shaped like reorderable priority tabs.",
+      "motionSignature": {
+        "locomotion": "Deliberate hops with feathers lagging like deferred priorities.",
+        "jumping": "Priority hop: feathers fan, reorder, then close into a clean sequence.",
+        "running": "Wing feathers sort from scattered to ranked while the beak scans.",
+        "waiting": "Holds one feather-tab outward for a tradeoff decision.",
+        "failed": "Feathers cross and the raven lowers its head.",
+        "review": "Locks wing tabs and gives one decisive nod."
+      }
+    },
+    {
+      "rank": 13,
+      "id": "ledger-ray",
+      "displayName": "Ledger Ray",
+      "status": "planned",
+      "audienceWorkflow": "financial correctness, reconciliation, billing systems",
+      "whyItLands": "The pet reads as balanced money movement without using payment logos.",
+      "brandSafetyGuardrails": "No bank marks, card logos, payment brands, currency symbols, or financial UI.",
+      "visualLock": "A flat ray with symmetrical belly plates that align into balance.",
+      "motionSignature": {
+        "locomotion": "Even gliding beats with left and right plates balancing after each fin stroke.",
+        "jumping": "Balance lift where both fins rise equally and settle in sync.",
+        "running": "Belly plates alternate debit-credit-like motion without symbols.",
+        "waiting": "Holds one side slightly raised, waiting for reconciliation.",
+        "failed": "One plate sticks out and the ray tilts.",
+        "review": "Rolls enough to show all plates aligned."
+      }
+    },
+    {
+      "rank": 14,
+      "id": "warehouse-walrus",
+      "displayName": "Warehouse Walrus",
+      "status": "planned",
+      "audienceWorkflow": "data warehouses, analytics platforms, data modeling",
+      "whyItLands": "Data teams get the heavy storage and sorting metaphor without snowflake or lakehouse marks.",
+      "brandSafetyGuardrails": "No snowflake icons, spark marks, vendor palettes, database logos, or dashboard screenshots.",
+      "visualLock": "A compact walrus with shelf-like tusks and stacked whisker rows.",
+      "motionSignature": {
+        "locomotion": "Heavy scoot with tusks keeping rows level.",
+        "jumping": "Barely leaves baseline; tusks lift first, body follows, then shelves resettle.",
+        "running": "Whisker rows sort into layers while tusks hold the stable frame.",
+        "waiting": "Holds one tusk shelf open for a modeling choice.",
+        "failed": "Whisker rows sag and tusks tilt out of level.",
+        "review": "Turns head to sight down one perfect row."
+      }
+    },
+    {
+      "rank": 15,
+      "id": "notebook-newt",
+      "displayName": "Notebook Newt",
+      "status": "planned",
+      "audienceWorkflow": "notebooks, analysis, experiments, literate data work",
+      "whyItLands": "The page-body metaphor feels familiar to notebook users without using a known app symbol.",
+      "brandSafetyGuardrails": "No orbit logos, notebook UI, app names, cloud-colab marks, or exact color bands.",
+      "visualLock": "A slim newt with page-like dorsal plates that turn as part of the body.",
+      "motionSignature": {
+        "locomotion": "Careful crawl where dorsal plates flip one after another.",
+        "jumping": "Page flip-hop: back plates turn, body rises, plates flatten on landing.",
+        "running": "Dorsal plates cycle from rough notes to clean result shapes.",
+        "waiting": "One plate stays blank and raised for the next cell.",
+        "failed": "Plates fold backward and the newt retreats a step.",
+        "review": "Nose checks plate order from head to tail."
+      }
+    },
+    {
+      "rank": 16,
+      "id": "meeting-moth",
+      "displayName": "Meeting Moth",
+      "status": "planned",
+      "audienceWorkflow": "meetings, transcripts, async updates, summaries",
+      "whyItLands": "The moth-to-light behavior is a gentle joke about meetings without targeting a company.",
+      "brandSafetyGuardrails": "No video-app logos, camera icons, meeting UI, transcript screenshots, or exact app colors.",
+      "visualLock": "A soft moth with transcript-like wing veins and a tiny warm body glow.",
+      "motionSignature": {
+        "locomotion": "Flutter drift, slightly attracted to an implied focus point.",
+        "jumping": "Light bob: wing veins brighten, body rises, then settles away from distraction.",
+        "running": "Wing veins align into short summary rows, then relax.",
+        "waiting": "Hovers with wings half-open as if waiting for the next speaker.",
+        "failed": "Circles once too tightly and wings droop.",
+        "review": "Holds still at a thoughtful angle, wing veins neat."
+      }
+    },
+    {
+      "rank": 17,
+      "id": "signal-heron",
+      "displayName": "Signal Heron",
+      "status": "planned",
+      "audienceWorkflow": "customer signal, feedback synthesis, product discovery, CRM hygiene",
+      "whyItLands": "The heron makes customer signal feel calm and selective without borrowing any company mark.",
+      "brandSafetyGuardrails": "No cloud marks, CRM logos, mascot families, app UI, customer-record screenshots, sound-wave icons, or loose signal symbols.",
+      "visualLock": "A white folded heron with charcoal crease lines, long poised legs, origami-like wing facets, and a small cyan throat accent distinct from Zentri.",
+      "motionSignature": {
+        "locomotion": "Slow heron steps with neck poised and wing facets settling after each step.",
+        "jumping": "Tiny floating tuck where legs fold under, body lifts, then returns to one-leg balance.",
+        "running": "Beak and neck trace a slow S curve while wing facets fold noisy angles into one cyan signal thread.",
+        "waiting": "Meditative tuck opens one eye toward the user while the beak points gently to the cyan throat accent.",
+        "failed": "Wing facets ruffle into noisy angles, the neck loses its clean S curve, and the cyan accent dims.",
+        "review": "Stands tall and opens both folded wings just enough to reveal one clean cyan line."
+      }
+    },
+    {
+      "rank": 18,
+      "id": "eval-eel",
+      "displayName": "Eval Eel",
+      "status": "planned",
+      "audienceWorkflow": "AI eval harnesses, test rubrics, benchmark analysis",
+      "whyItLands": "Eval loops become a body movement rather than a chart or badge.",
+      "brandSafetyGuardrails": "No benchmark logos, lab marks, model names, scoreboards, or chart screenshots.",
+      "visualLock": "A ribbon-like eel with small scale ticks that can align into rubric passes.",
+      "motionSignature": {
+        "locomotion": "Looping swim where the body crosses itself cleanly without tangling.",
+        "jumping": "Rubric loop: body forms a small loop, lifts, then straightens.",
+        "running": "Scale ticks pass in groups as if test cases are being evaluated.",
+        "waiting": "Body forms an open loop, waiting for criteria.",
+        "failed": "Loop kinks and two scale ticks misalign.",
+        "review": "Straightens into a clear line while one scale group pulses."
+      }
+    },
+    {
+      "rank": 19,
+      "id": "search-salmon",
+      "displayName": "Search Salmon",
+      "status": "planned",
+      "audienceWorkflow": "code search, repository navigation, indexing",
+      "whyItLands": "Swimming upstream maps to persistent code search and repo traversal.",
+      "brandSafetyGuardrails": "No search-product marks, magnifier icons as logos, index UI, or exact vendor palettes.",
+      "visualLock": "A salmon with scale bands that act like search-result cadence.",
+      "motionSignature": {
+        "locomotion": "Upstream swimming through air with tail beats as search steps.",
+        "jumping": "Clean upstream leap with a tail flick at peak.",
+        "running": "Nose darts between implied results while scale bands pulse.",
+        "waiting": "Suspends mid-swim for query refinement.",
+        "failed": "Tail slows and the body drifts downstream.",
+        "review": "Turns sideways to inspect one result closely."
+      }
+    },
+    {
+      "rank": 20,
+      "id": "sandbox-seal",
+      "displayName": "Sandbox Seal",
+      "status": "planned",
+      "audienceWorkflow": "isolated experiments, preview environments, dev sandboxes",
+      "whyItLands": "The seal can feel playful and safe while representing isolation and experiments.",
+      "brandSafetyGuardrails": "No sandbox-platform logos, cloud UI, app names, or proprietary environment icons.",
+      "visualLock": "A round seal with a subtle body-contained ring that reads as a sandbox boundary.",
+      "motionSignature": {
+        "locomotion": "Belly slide with the boundary ring keeping pace.",
+        "jumping": "Ring bounce: body pops up while the ring compresses and expands.",
+        "running": "Nose tests the boundary from inside, then returns to center.",
+        "waiting": "Balances inside the ring, asking whether to keep or discard.",
+        "failed": "Ring squashes unevenly and the seal looks back at it.",
+        "review": "Rolls the ring slightly to inspect isolation."
+      }
+    },
+    {
+      "rank": 21,
+      "id": "package-pangolin",
+      "displayName": "Package Pangolin",
+      "status": "planned",
+      "audienceWorkflow": "package managers, dependency registries, version upgrades",
+      "whyItLands": "Scales make dependencies visible without package-manager marks.",
+      "brandSafetyGuardrails": "No package-manager logos, yarn/animal mascots, registry UI, or exact command icons.",
+      "visualLock": "A pangolin whose scales behave like versioned packages.",
+      "motionSignature": {
+        "locomotion": "Curl-unroll walk with scales settling in dependency order.",
+        "jumping": "Version bump curl: rolls up, lifts slightly, unrolls with one scale advanced.",
+        "running": "Scales flip in dependency-chain cadence from head to tail.",
+        "waiting": "Half-curled with one scale raised for version choice.",
+        "failed": "Curls tightly with mismatched scales showing.",
+        "review": "Uncurls just enough to inspect scale alignment."
+      }
+    },
+    {
+      "rank": 22,
+      "id": "cache-squirrel",
+      "displayName": "Cache Squirrel",
+      "status": "planned",
+      "audienceWorkflow": "build caches, dependency caches, warm starts",
+      "whyItLands": "Stashing and retrieving maps naturally to caching without product marks.",
+      "brandSafetyGuardrails": "No build-tool logos, turbo marks, package icons, or cache dashboard UI.",
+      "visualLock": "A small squirrel with tail pockets that hold body-attached cache blocks.",
+      "motionSignature": {
+        "locomotion": "Fast stash-and-scamper with tail stabilizing every stop.",
+        "jumping": "Cache hop where paws tuck close and tail flips forward.",
+        "running": "Paws place tiny attached cache blocks into tail fur pockets.",
+        "waiting": "Clutches one cache block and looks for confirmation.",
+        "failed": "Drops into a startled crouch with tail wrapped around stash.",
+        "review": "Sniffs a cache block, then nods with tail held high."
+      }
+    },
+    {
+      "rank": 23,
+      "id": "container-hermit",
+      "displayName": "Container Hermit",
+      "status": "planned",
+      "audienceWorkflow": "containers, local services, compose-style development",
+      "whyItLands": "A modular shell gives the container idea without using famous container mascots.",
+      "brandSafetyGuardrails": "No whale mascots, container-platform logos, product names, or dashboard UI.",
+      "visualLock": "A hermit with a modular shell made of original compartment shapes.",
+      "motionSignature": {
+        "locomotion": "Sideways shell shuffle with fast legs and stable compartments.",
+        "jumping": "Tiny shell-lift where the service stack rises as one protected unit.",
+        "running": "Shell panels open and close as services start, stop, and settle.",
+        "waiting": "Half-hides with one claw holding a compartment open.",
+        "failed": "Compartments misalign and the hermit tucks halfway inside.",
+        "review": "Turns shell side-on to expose compartment order."
+      }
+    },
+    {
+      "rank": 24,
+      "id": "cluster-puffer",
+      "displayName": "Cluster Puffer",
+      "status": "planned",
+      "audienceWorkflow": "clusters, scheduling, pod placement, service health",
+      "whyItLands": "Balanced body spots make scheduling readable without orchestration marks.",
+      "brandSafetyGuardrails": "No helm wheels, orchestration logos, vendor dashboards, or exact product terms.",
+      "visualLock": "A compact puffer with spots that inflate in balanced groups.",
+      "motionSignature": {
+        "locomotion": "Buoyant drift with fins correcting position like a scheduler.",
+        "jumping": "Inflate-lift where the body rounds gently, rises, and deflates.",
+        "running": "Body spots inflate in balanced groups as capacity is placed.",
+        "waiting": "Holds three spots half-inflated for scheduling input.",
+        "failed": "Inflation becomes lopsided and fins tuck close.",
+        "review": "Rolls slightly to expose one balanced group."
+      }
+    },
+    {
+      "rank": 25,
+      "id": "flag-fox",
+      "displayName": "Flag Fox",
+      "status": "planned",
+      "audienceWorkflow": "feature flags, experiments, progressive rollout",
+      "whyItLands": "A fox tail can carry rollout states without borrowing flag-platform brands.",
+      "brandSafetyGuardrails": "No launch-platform logos, flag-product names, dashboard UI, or exact toggle icons.",
+      "visualLock": "A fox with tail panels that flip between muted rollout states.",
+      "motionSignature": {
+        "locomotion": "Quiet trot with tail panels trailing in rollout order.",
+        "jumping": "Canary hop: front paws lift, one tail panel flips, then all settle.",
+        "running": "Tail panels flip from closed to partial to open in a smooth progression.",
+        "waiting": "Holds one panel halfway for approval.",
+        "failed": "Tail panels snap back out of order.",
+        "review": "Turns tail toward the viewer and checks the panel sequence."
+      }
+    },
+    {
+      "rank": 26,
+      "id": "release-rocket",
+      "displayName": "Release Rocket",
+      "status": "planned",
+      "audienceWorkflow": "release checklists, deploys, changelogs",
+      "whyItLands": "Release motion is immediately legible and product-neutral.",
+      "brandSafetyGuardrails": "No deploy-platform marks, exact launch UI, product names, or detached flame effects.",
+      "visualLock": "A small rounded rocket with attached flame shape and expressive fins.",
+      "motionSignature": {
+        "locomotion": "Controlled hover-slide with fins steering.",
+        "jumping": "Launch bob: body compresses down, rises on attached flame, settles.",
+        "running": "Fins check sequence while attached flame pulses in checklist cadence.",
+        "waiting": "Holds launchpad posture with nose angled at user.",
+        "failed": "Nose dips and flame shrinks into body.",
+        "review": "Tilts to inspect final checklist with fins locked."
+      }
+    },
+    {
+      "rank": 27,
+      "id": "incident-axolotl",
+      "displayName": "Incident Axolotl",
+      "status": "planned",
+      "audienceWorkflow": "incident response, escalation, on-call handoff",
+      "whyItLands": "A calm response pet is useful and respectful for stressful work.",
+      "brandSafetyGuardrails": "No pager logos, incident-platform names, alert UI, sirens, or vendor colors.",
+      "visualLock": "A composed axolotl with frills that show calm response state.",
+      "motionSignature": {
+        "locomotion": "Gentle steps with frills pulsing like controlled breathing.",
+        "jumping": "Soft waterless bounce with frills folding in and out.",
+        "running": "Frills pulse slowly while paws move through response steps.",
+        "waiting": "Holds steady eye contact for escalation choice.",
+        "failed": "Frills droop but posture stays composed.",
+        "review": "Head lowers and frills align symmetrically."
+      }
+    },
+    {
+      "rank": 28,
+      "id": "security-sentinel",
+      "displayName": "Security Sentinel",
+      "status": "planned",
+      "audienceWorkflow": "secure review, threat modeling, policy checks",
+      "whyItLands": "The sentinel stance feels protective without relying on security-vendor marks.",
+      "brandSafetyGuardrails": "No security-vendor logos, proprietary shield marks, scanner UI, lock logos, or product names.",
+      "visualLock": "A compact sentinel creature with a chest plate and narrow attentive eyes.",
+      "motionSignature": {
+        "locomotion": "Measured guard steps with chest plate staying forward.",
+        "jumping": "Brace-hop: crouches behind chest plate, lifts, then lands guard-first.",
+        "running": "Eyes sweep while chest plate facets check policy states.",
+        "waiting": "Holds guard stance with one paw open for a decision.",
+        "failed": "Chest plate tilts and eyes narrow with concern.",
+        "review": "Locks plate forward and leans into close inspection."
+      }
+    },
+    {
+      "rank": 29,
+      "id": "approval-alpaca",
+      "displayName": "Approval Alpaca",
+      "status": "planned",
+      "audienceWorkflow": "human approval, governance, blocked agent tasks",
+      "whyItLands": "Agent users recognize waiting-on-human loops immediately.",
+      "brandSafetyGuardrails": "No approval-tool logos, checkbox badges, workflow UI, or product names.",
+      "visualLock": "A patient alpaca with a neck posture that can point toward the user.",
+      "motionSignature": {
+        "locomotion": "Slow careful step with neck keeping attention forward.",
+        "jumping": "Polite hop where front knees lift first and the neck stays composed.",
+        "running": "Neck dips and rises in a review-ready approval cadence.",
+        "waiting": "Stares gently at the user with one hoof lifted.",
+        "failed": "Neck droops and the lifted hoof settles.",
+        "review": "Turns slightly sideways and gives one restrained nod."
+      }
+    },
+    {
+      "rank": 30,
+      "id": "prompt-parrot",
+      "displayName": "Prompt Parrot",
+      "status": "installable",
+      "audienceWorkflow": "prompt iteration, instruction refinement, agent steering",
+      "whyItLands": "It already fits the AI-agent audience and stays product-neutral.",
+      "brandSafetyGuardrails": "No AI-lab marks, chat UI, speech bubbles, model names, or exact brand palettes.",
+      "visualLock": "A compact parrot with readable beak cadence and prompt-clause feather ordering.",
+      "motionSignature": {
+        "locomotion": "Perch shuffle with beak leading and tail feathers balancing.",
+        "jumping": "Short perch flap with beak opening but no text bubble.",
+        "running": "Beak opens and closes in measured beats while feathers reorder like prompt clauses.",
+        "waiting": "Head cocks sharply, waiting to echo the next instruction.",
+        "failed": "Feathers ruffle and beak closes tight.",
+        "review": "Beak points down and eye tracks the prompt shape."
+      }
+    }
+  ]
+}

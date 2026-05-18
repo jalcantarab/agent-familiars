@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "title": "Zentri",
+  "subtitle": "folded product intent",
+  "preset": "readme",
+  "theme": "familiars-dark",
+  "slug": "zentri-readme-sequence",
+  "outputs": {
+    "formats": ["gif", "poster"],
+    "dir": "output/sequences"
+  },
+  "scenes": [
+    {
+      "pet": "zentri",
+      "beats": "profile.best"
+    }
+  ]
+}

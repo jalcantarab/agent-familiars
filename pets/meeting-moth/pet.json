@@ -1,0 +1,6 @@
+{
+  "id": "meeting-moth",
+  "displayName": "Meeting Moth",
+  "description": "A transcript moth whose wings fold from chatter into a tidy summary shape.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,78 @@
+{
+  "familiars-dark": {
+    "description": "Default Familiars dark grid with cyan accents and no forced branding.",
+    "background": "#07111f",
+    "grid": "#67b7ee",
+    "accent": "#22e6dc",
+    "text": "#eef5ff",
+    "muted": "#9fb2ca",
+    "card": "#dbeafe",
+    "cardText": "#111827",
+    "brand": {
+      "mode": "none",
+      "logo": "none",
+      "footer": "",
+      "watermark": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "repo-dark": {
+    "description": "Familiars showcase theme with restrained repository provenance.",
+    "background": "#07111f",
+    "grid": "#6db8f1",
+    "accent": "#22e6dc",
+    "text": "#f4f8ff",
+    "muted": "#a9bad0",
+    "card": "#dff6ff",
+    "cardText": "#111827",
+    "brand": {
+      "mode": "repo",
+      "logo": "zentrik",
+      "footer": "zentrik.ai",
+      "watermark": "subtle"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "review-light": {
+    "description": "Neutral light theme for issue comments, docs, and non-branded exports.",
+    "background": "#f8fafc",
+    "grid": "#93c5fd",
+    "accent": "#0891b2",
+    "text": "#0f172a",
+    "muted": "#475569",
+    "card": "#ffffff",
+    "cardText": "#0f172a",
+    "brand": {
+      "mode": "none",
+      "logo": "none",
+      "footer": "",
+      "watermark": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  },
+  "night-lab": {
+    "description": "Lower-contrast dark theme for longer, calmer motion studies.",
+    "background": "#050a13",
+    "grid": "#3b82f6",
+    "accent": "#67e8f9",
+    "text": "#e5eefb",
+    "muted": "#94a3b8",
+    "card": "#cffafe",
+    "cardText": "#0f172a",
+    "brand": {
+      "mode": "none",
+      "logo": "none",
+      "footer": "",
+      "watermark": "none"
+    },
+    "captions": {
+      "mode": "card"
+    }
+  }
+}

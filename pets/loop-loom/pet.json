@@ -1,0 +1,6 @@
+{
+  "id": "loop-loom",
+  "displayName": "Loop Loom",
+  "description": "A miniature loom familiar that shows active work, waiting, review, and failure through a single woven loop.",
+  "spritesheetPath": "spritesheet.webp"
+}

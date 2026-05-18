@@ -1,0 +1,6 @@
+{
+  "id": "demo-dolphin",
+  "displayName": "Demo Dolphin",
+  "description": "A product-demo dolphin that presents story beats with smooth, restrained showmanship.",
+  "spritesheetPath": "spritesheet.webp"
+}

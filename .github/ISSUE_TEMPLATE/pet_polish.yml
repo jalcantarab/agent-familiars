@@ -1,0 +1,42 @@
+name: Pet polish
+description: Report an animation, readability, or personality issue with an existing familiar.
+title: "Pet polish: "
+labels: [pet-polish]
+body:
+  - type: input
+    id: pet
+    attributes:
+      label: Pet id
+      placeholder: no-knight
+    validations:
+      required: true
+  - type: checkboxes
+    id: states
+    attributes:
+      label: States involved
+      options:
+        - label: idle
+        - label: sleeping
+        - label: thinking
+        - label: working
+        - label: waiting
+        - label: success
+        - label: failed
+        - label: review
+        - label: celebration
+  - type: textarea
+    id: issue
+    attributes:
+      label: What feels off?
+      description: Describe what you noticed. Screenshots, contact sheets, or short clips help.
+      placeholder: "The shield joke disappears in waiting, so the character loses its point."
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired feeling
+      description: What should the familiar communicate instead?
+      placeholder: "Stoic, patient, mildly immovable, with the punchline visible at small size."
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "title": "No Knight",
+  "subtitle": "the roadmap guardian",
+  "preset": "spotlight",
+  "theme": "familiars-dark",
+  "slug": "no-knight-spotlight-sequence",
+  "outputs": {
+    "formats": ["gif", "poster"],
+    "dir": "output/sequences"
+  },
+  "scenes": [
+    {
+      "pet": "no-knight",
+      "beats": "profile.best"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "cache-squirrel",
+  "displayName": "Cache Squirrel",
+  "description": "A dependency-cache squirrel that stashes tiny cache blocks in its tail pockets.",
+  "spritesheetPath": "spritesheet.webp"
+}

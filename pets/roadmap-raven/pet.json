@@ -1,0 +1,6 @@
+{
+  "id": "roadmap-raven",
+  "displayName": "Roadmap Raven",
+  "description": "A planning raven whose tail feathers behave like timeline lanes and reorder by priority.",
+  "spritesheetPath": "spritesheet.webp"
+}

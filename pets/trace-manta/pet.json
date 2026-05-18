@@ -1,0 +1,6 @@
+{
+  "id": "trace-manta",
+  "displayName": "Trace Manta",
+  "description": "An observability manta whose fins ripple like trace spans flowing downstream.",
+  "spritesheetPath": "spritesheet.webp"
+}

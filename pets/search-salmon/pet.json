@@ -1,0 +1,6 @@
+{
+  "id": "search-salmon",
+  "displayName": "Search Salmon",
+  "description": "A code-search salmon that swims upstream through results, tail beats acting like query refinements.",
+  "spritesheetPath": "spritesheet.webp"
+}

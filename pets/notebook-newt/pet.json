@@ -1,0 +1,6 @@
+{
+  "id": "notebook-newt",
+  "displayName": "Notebook Newt",
+  "description": "A data notebook newt whose tail marks cell execution order and knots when results break.",
+  "spritesheetPath": "spritesheet.webp"
+}

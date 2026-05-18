@@ -1,0 +1,6 @@
+{
+  "id": "latency-lemur",
+  "displayName": "Latency Lemur",
+  "description": "A performance lemur whose striped tail behaves like a tiny timing graph.",
+  "spritesheetPath": "spritesheet.webp"
+}

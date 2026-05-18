@@ -1,0 +1,107 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Install MCP extra
+        run: python -m pip install -e ".[mcp]"
+      - name: Validate pet bundles
+        run: python scripts/validate_pets.py
+      - name: Validate design specs
+        run: python scripts/validate_design_specs.py
+      - name: Validate docs
+        run: python scripts/validate_docs.py
+      - name: Check release readiness
+        run: python scripts/check_release_readiness.py
+      - name: Check brand assets
+        run: python scripts/render_brand_assets.py --check
+      - name: Check README cards
+        run: python scripts/render_readme_cards.py --check
+      - name: Check preview artifacts
+        run: python scripts/render_previews.py --all --check
+      - name: Check sequence recipes
+        run: python scripts/render_sequence.py --check
+      - name: Check showcase artifacts
+        run: python scripts/render_reel.py --check
+      - name: Compile scripts
+        run: PYTHONPYCACHEPREFIX=/tmp/agent-familiars-pycache python -m py_compile setup.py scripts/check_release_readiness.py scripts/install_pet.py scripts/render_brand_assets.py scripts/render_readme_cards.py scripts/render_previews.py scripts/render_sequence.py scripts/render_reel.py scripts/smoke_mcp_client.py scripts/validate_pets.py scripts/validate_design_specs.py scripts/validate_docs.py scripts/generate_signal_surface.py scripts/generate_state_instruments.py scripts/rotate_installed_pet_variant.py familiars/__init__.py familiars/cli.py familiars/limits.py familiars/mcp_server.py familiars/pet_assets.py familiars/sequence_presets.py familiars/sequence_schema.py familiars/sequence_renderer.py
+      - name: Smoke CLI
+        run: |
+          familiars list packs
+          familiars render --pet no-knight --preset spotlight --outputs poster --output-dir /tmp/agent-familiars-cli-render
+          test -f /tmp/agent-familiars-cli-render/no-knight-spotlight-poster.png
+          rm -rf /tmp/agent-familiars-cli-install
+          familiars install zentri --dest /tmp/agent-familiars-cli-install --source local
+          test -f /tmp/agent-familiars-cli-install/zentri/pet.json
+          familiars validate
+      - name: Smoke MCP server
+        run: python -c "from familiars.mcp_server import build_server; build_server(); print('mcp ok')"
+      - name: Smoke MCP client session
+        run: python scripts/smoke_mcp_client.py
+      - name: Check package wheel
+        run: |
+          rm -rf /tmp/agent-familiars-wheelhouse
+          python -m pip wheel . --no-deps -w /tmp/agent-familiars-wheelhouse
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+
+          wheel = next(Path("/tmp/agent-familiars-wheelhouse").glob("agent_familiars-*.whl"))
+          if wheel.stat().st_size > 100_000_000:
+              raise SystemExit(f"wheel is too large: {wheel.stat().st_size:,} bytes")
+          with zipfile.ZipFile(wheel) as archive:
+              names = set(archive.namelist())
+          required = {
+              "familiars/_bundle/catalog/pets.json",
+              "familiars/_bundle/catalog/packs.json",
+              "familiars/_bundle/pets/zentri/pet.json",
+              "familiars/_bundle/pets/zentri/spritesheet.webp",
+              "familiars/_bundle/examples/sequences/no-knight-spotlight.json",
+          }
+          missing = sorted(required - names)
+          if missing:
+              raise SystemExit(f"wheel missing required bundle files: {missing}")
+          forbidden = [name for name in names if "/preview/" in name or "assets/showcase/" in name]
+          if forbidden:
+              raise SystemExit(f"wheel includes review media: {forbidden[:5]}")
+          print(f"wheel ok: {wheel.name} ({wheel.stat().st_size:,} bytes)")
+          PY
+      - name: Smoke install product pack
+        run: |
+          rm -rf /tmp/agent-familiars-install-smoke
+          python scripts/install_pet.py --pack product-tropes --dest /tmp/agent-familiars-install-smoke --source local
+          test -f /tmp/agent-familiars-install-smoke/signal-heron/pet.json
+          test -f /tmp/agent-familiars-install-smoke/priority-sphinx/spritesheet.webp
+      - name: Smoke install starter pack
+        run: |
+          rm -rf /tmp/agent-familiars-starter-smoke
+          python scripts/install_pet.py --pack starter --dest /tmp/agent-familiars-starter-smoke --source local
+          test -f /tmp/agent-familiars-starter-smoke/signal-surface/pet.json
+          test -f /tmp/agent-familiars-starter-smoke/release-rocket/pet.json
+          test -f /tmp/agent-familiars-starter-smoke/security-sentinel/spritesheet.webp
+      - name: Smoke install state instruments
+        run: |
+          rm -rf /tmp/agent-familiars-state-smoke
+          python scripts/install_pet.py --pack state-instruments --dest /tmp/agent-familiars-state-smoke --source local
+          test -f /tmp/agent-familiars-state-smoke/intent-compass/pet.json
+          test -f /tmp/agent-familiars-state-smoke/tide-stone/spritesheet.webp
+      - name: Smoke install first-50 pack
+        run: |
+          rm -rf /tmp/agent-familiars-first-50-smoke
+          python scripts/install_pet.py --pack first-50 --dest /tmp/agent-familiars-first-50-smoke --source local
+          test -f /tmp/agent-familiars-first-50-smoke/pixel-penguin/pet.json
+          test -f /tmp/agent-familiars-first-50-smoke/demo-dolphin/spritesheet.webp

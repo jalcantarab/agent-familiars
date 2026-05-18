@@ -1,0 +1,6 @@
+{
+  "id": "merge-mammoth",
+  "displayName": "Merge Mammoth",
+  "description": "A huge but gentle merge-conflict mammoth that untangles branches with patient trunk work.",
+  "spritesheetPath": "spritesheet.webp"
+}

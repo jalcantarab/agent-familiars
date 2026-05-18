@@ -1,0 +1,6 @@
+{
+  "id": "prompt-parrot",
+  "displayName": "Prompt Parrot",
+  "description": "A prompt-refinement parrot whose beak cadence and feathers reorder ideas into sharper instructions.",
+  "spritesheetPath": "spritesheet.webp"
+}

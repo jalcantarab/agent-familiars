@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install and setup help
+    url: https://github.com/jalcantarab/agent-familiars/blob/main/docs/INSTALL.md
+    about: Start here if you are trying to install a familiar or pack.
+  - name: Choose a familiar
+    url: https://github.com/jalcantarab/agent-familiars/blob/main/docs/CHOOSING_A_FAMILIAR.md
+    about: Use the chooser if you know the mood you want but not the pet.
+  - name: Security report
+    url: https://github.com/jalcantarab/agent-familiars/security/policy
+    about: Report installer, supply-chain, or sensitive-data issues privately.

@@ -1,0 +1,6 @@
+{
+  "id": "react-gecko",
+  "displayName": "React Gecko",
+  "description": "A frontend state gecko whose sticky toes and color patches make component state transitions visible.",
+  "spritesheetPath": "spritesheet.webp"
+}

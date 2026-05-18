@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-familiars"
+version = "0.1.0"
+description = "Installable Codex pets and renderer utilities for agent work."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jorge Alcantara" }]
+dependencies = ["Pillow>=12.2.0"]
+keywords = [
+  "agent-tools",
+  "ai-agents",
+  "codex",
+  "codex-pets",
+  "developer-tools",
+  "desktop-pets",
+  "mcp",
+  "pets",
+  "sprites",
+  "spritesheets",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: User Interfaces",
+  "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Changelog = "https://github.com/jalcantarab/agent-familiars/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/jalcantarab/agent-familiars/blob/main/docs/INSTALL.md"
+Homepage = "https://github.com/jalcantarab/agent-familiars"
+Issues = "https://github.com/jalcantarab/agent-familiars/issues"
+Source = "https://github.com/jalcantarab/agent-familiars"
+Zentrik = "https://zentrik.ai"
+
+[project.scripts]
+familiars = "familiars.cli:main"
+familiars-mcp = "familiars.mcp_server:main"
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.0,<2"]
+
+[tool.setuptools]
+packages = ["familiars"]

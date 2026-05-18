@@ -1,0 +1,26 @@
+name: Pet request
+description: Suggest a new original or clearly licensed pet.
+title: "Pet request: "
+labels: [pet-request]
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: Concept
+      description: What should the pet be, and who would love it?
+    validations:
+      required: true
+  - type: textarea
+    id: motion
+    attributes:
+      label: Motion language
+      description: How should idle, waiting, running, review, and failed feel for this specific character?
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights and references
+      description: Confirm whether this is original, public-domain, or clearly licensed. Do not request copyrighted characters or company mascots.
+    validations:
+      required: true

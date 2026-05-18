@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "description": "Product-community trope pets with distinct personalities, state carriers, and user-facing event feelings for the nine Codex pet states.",
+  "selectionPrinciple": "Each pet must tell the user what is happening through a character-specific object or body mechanic, not through generic gestures or repeated animations.",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "productionRules": [
+    "Every pet needs a unique integrated state carrier such as a shield, feature heads, growth system, fossil layer, folded signal posture, tablet, polarity plate, vane, scale pan, or lantern flame.",
+    "State carriers must be integrated into the pet silhouette or held object; avoid loose icons, UI cards, floating punctuation, detached particles, and tiny unreadable labels.",
+    "Every state should make the user feel a precise product-work moment: blocked, asked, focused, overgrown, aligned, ready, unstable, or resolved.",
+    "The failed state should be a character-specific deformation, not a generic sad face or sleep pose.",
+    "Directional movement rows may move across the screen, but they must still preserve the pet-specific state carrier and should not read as generic side-running."
+  ],
+  "firstProductionSix": [
+    "no-knight",
+    "feature-hydra",
+    "mvp-bonsai",
+    "backlog-archaeologist",
+    "signal-heron",
+    "priority-sphinx"
+  ],
+  "pets": [
+    {
+      "rank": 1,
+      "id": "no-knight",
+      "displayName": "No Knight",
+      "trope": "Focus-protecting roadmap knight with a shield-billboard boundary. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "Tiny ceremonial product knight with oversized shield-billboard, small visor slit, roadmap-tab rim, steel and parchment palette, one cyan decision accent; funny but tender guardian of focus, not anti-idea, pro-priority.",
+      "stateCarrier": "Integrated product-work carrier: the shield-billboard carries short product-team refusals and questions: NO, NOPE, CUT, WHY. Roadmap tabs stay attached to the shield rim when scope pressure builds.",
+      "visualLock": "Polished sticker mascot, crisp ink outline, compact theatrical silhouette, readable shield copy, warm off-white parchment, charcoal steel, restrained cyan accent, no scenery. Tiny ceremonial product knight with oversized shield-billboard, small visor slit, roadmap-tab rim, steel and parchment palette, one cyan decision accent; funny but tender guardian of focus, not anti-idea, pro-priority.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "Stands planted behind the giant shield-billboard, visor barely breathing open and closed; calm guardrail, shield clearly reads NO.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Shield-first march to the right; billboard leans into motion while tiny boots catch up behind it; NO remains readable as focus is carried forward.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Shield-first march to the left from a separately generated row; NO stays readable left-to-right instead of being mirrored.",
+          "qaFocus": "Preserve identity and never mirror readable shield text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "A tiny restrained gauntlet salute peeks over the planted shield while the shield says NOPE; reluctant acknowledgement, still a boundary.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "Heavy ceremonial shield-hop: crouch, stubborn lift, tiny peak, heavy landing, rigid settle; NO never leaves the shield.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Roadmap tabs pile over the shield rim and press the shield downward; NO stays visible through the scope pressure.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Holds a bigger, slower NO straight toward the user; unmistakable decision boundary.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Braces behind the shield while attached roadmap tabs settle and the shield bluntly reads CUT.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Tilts the shield like a review board, visor narrows, and the shield asks WHY before anything gets promoted.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "id": "feature-hydra",
+      "displayName": "Feature Hydra",
+      "trope": "Friendly feature-creep hydra with regrowing scope heads. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "Small cute-but-chaotic hydra mascot with rounded body, three main necks, leaflike feature-head crests, tethered scope collar, emerald and teal body with warm belly, no scary gore; the joke is feature creep regrowing harmlessly.",
+      "stateCarrier": "Integrated product-work carrier: pulls its heads in different directions while one head asks for the cut, re-ranks the heads so one feature leads and the others tuck back, settles into one leading head with calm support heads, sprouts extra attached feature heads until the body is overcrowded.",
+      "visualLock": "storybook sticker mascot, rounded friendly monster, crisp silhouette, clear three-head shape, expressive but non-threatening, no detached flames or effects Small cute-but-chaotic hydra mascot with rounded body, three main necks, leaflike feature-head crests, tethered scope collar, emerald and teal body with warm belly, no scary gore; the joke is feature creep regrowing harmlessly.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "Three heads do a gentle asynchronous blink and breathing loop; manageable monster, harmless for now, collar tidy.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Trots right with heads taking turns leading, body following late; product scope moving forward with lively disagreement.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Trots left with the rear head looking back toward earlier assumptions, still one compact hydra identity.",
+          "qaFocus": "Preserve identity and avoid mirrored readable text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "One head gives a small crest-nod greeting while the other two stay curious; greeting comes from hydra personality, not a hand wave.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "All heads compress into the body, then pop upward at slightly different timings; playful feature burst contained in one silhouette.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Cut-looking neck stubs immediately sprout two tiny attached extra heads, making the body overcrowded but still cute; feature creep became multiplication.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Two heads pull in opposite directions while the middle head looks at the user, asking which feature survives; collar visibly taut.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Heads propose, retract, and re-rank themselves: one main head grows larger while side heads tuck smaller; active scope negotiation.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Settles into one leading head with two calm support heads tucked symmetrically; scope tamed into a readable choice.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "id": "mvp-bonsai",
+      "displayName": "MVP Bonsai",
+      "trope": "Tiny bonsai that treats MVP discipline as pruning craft. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "Tiny bonsai creature in a shallow integrated pot-foot, one elegant main leaf canopy, one possible bud, tiny pruning claw, muted green leaves, warm clay base, subtle cyan dew accent; disciplined, bright, quietly ruthless about keeping only what teaches.",
+      "stateCarrier": "Integrated product-work carrier: presents one unopened bud and asks which one thing should grow next, tests side buds, then prunes back to the useful learning unit, returns to a clean pruned silhouette with the cyan dew accent centered, droops under attached overgrowth while keeping the same compact bonsai identity.",
+      "visualLock": "miniature bonsai sticker mascot, refined simple silhouette, calm Japanese garden craft vibe without scenery, crisp edges, no text Tiny bonsai creature in a shallow integrated pot-foot, one elegant main leaf canopy, one possible bud, tiny pruning claw, muted green leaves, warm clay base, subtle cyan dew accent; disciplined, bright, quietly ruthless about keeping only what teaches.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "One healthy canopy breathes with a tiny leaf shimmer; smallness feels intentional and alive, not incomplete.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Pot-foot scoots right, canopy leans like a little sail; experiment moving forward without overgrowth.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Pot-foot scoots left, canopy counterbalances deliberately; learning loops back without losing the core idea.",
+          "qaFocus": "Preserve identity and avoid mirrored readable text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "Single main leaf gives a tiny courteous wave while the bud stays closed; modest invitation to inspect.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "Stem compresses, pot-foot tucks, canopy lifts in a small spring; hopeful but plant-like, not athletic.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Too many tiny attached leaves and vines briefly wrap around the trunk until the main shape is obscured; feature bloat tangled the learning loop.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Presents one unopened bud toward the user while all other leaves hold still; asks which one thing should grow next.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Two or three side buds appear, then tiny pruning claw trims them back so one clean canopy remains; exploration disciplined by taste.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Returns to a perfect pruned silhouette with one cyan dew accent centered; the useful learning unit is clear.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "id": "backlog-archaeologist",
+      "displayName": "Backlog Archaeologist",
+      "trope": "Scholarly fossil explorer for ancient backlog layers and old assumptions. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "Small explorer creature with fossil-shell backpack, attached brush tail, round goggles, sediment bands on body, sandy ochre and slate palette; curious, skeptical, scholarly, lightly horrified by old tickets.",
+      "stateCarrier": "Integrated product-work carrier: holds up an abstract fossil slab and asks whether the old thing still matters, scrapes an attached sediment layer to reveal one cleaner artifact shape, polishes the fossil shell until the evidence is ready to judge, gets covered by attached fossil strata while goggles peek through.",
+      "visualLock": "adventure sticker mascot, compact scholarly explorer, crisp fossil-layer shapes, no loose dust, no readable text Small explorer creature with fossil-shell backpack, attached brush tail, round goggles, sediment bands on body, sandy ochre and slate palette; curious, skeptical, scholarly, lightly horrified by old tickets.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "Brush-tail makes one careful stroke across body-layer fossil while goggles blink; gentle examination of product history.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Scurries right with fossil-shell tilted forward and brush-tail tucked close; backlog dig moving into older territory.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Scurries left while fossil-shell rocks backward like a heavy archive; revisiting prior decisions with context.",
+          "qaFocus": "Preserve identity and avoid mirrored readable text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "Raises brush-tail like a small flag and goggles widen; it found something and politely wants attention.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "Startled discovery hop; fossil-shell lifts late after the body, then settles with weight.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Fossil layers slide over its head and goggles peek from under the collapsed attached shell stack; old work buried the decision.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Holds one fossil slab toward the user with simple unreadable marks; asks whether this old thing still matters.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Brush-tail clears one attached layer, pauses, then reveals a cleaner artifact shape beneath; discovery and triage underway.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Polishes fossil-shell until one artifact shape reads clearly, then nods through goggles; evidence ready to judge.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "id": "signal-heron",
+      "displayName": "Signal Heron",
+      "trope": "Original folded-paper heron that finds signal through stillness. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "White folded heron, charcoal crease lines, long poised legs, origami-like wing facets, small cyan throat accent distinct from Zentri; zen, observant, quietly exacting, hears signal through stillness.",
+      "stateCarrier": "Integrated product-work carrier: folds into a meditative tuck and opens one eye toward the signal accent, aligns a body-attached cyan signal thread through the throat and wing folds, opens folded wings just enough to reveal one clean cyan line, ruffles body facets while preserving a dim cyan throat accent.",
+      "visualLock": "elegant flat-sticker origami mascot, crisp folded-paper facets, serene minimal face, no water, no scenery, no sound waves, no floating symbols; white folded heron, charcoal crease lines, long poised legs, origami-like wing facets, small cyan throat accent distinct from Zentri.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "Meditates on one leg with half-closed eyes; folded wings rise and fall like breath, cyan throat accent pulses once; stillness feels useful.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Slow heron steps right; neck remains poised while trailing wing facets settle after each step; signal carried forward without hurry.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Slow heron steps left with poised neck and visible cyan throat accent; revisits evidence with the same calm.",
+          "qaFocus": "Preserve identity and avoid mirrored readable text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "One folded wing opens like a quiet greeting fan, then returns to meditation posture; minimal invitation to listen closer.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "Tiny floating tuck: legs fold under, body lifts, then lands back on one leg; weightless clarity without splash or shadow.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Wing facets ruffle into uneven noisy angles, neck loses clean S curve, cyan accent dims; noise disturbed the calm.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Compact meditative floating tuck with eyes closed, then one eye opens toward user while beak indicates cyan throat accent; asks what signal to listen for.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Beak and neck trace slow S curve; wing facets fold noisy angles away until one body-attached cyan signal thread aligns through throat.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Stands tall and opens both folded wings just enough to reveal one clean cyan line, then becomes still; insight ready to use.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "id": "priority-sphinx",
+      "displayName": "Priority Sphinx",
+      "trope": "Stone tradeoff sphinx with an abstract tablet and solemn approval glint. Built for product-community recognition without borrowing company mascots or marks.",
+      "personality": "Tiny stone sphinx with compact paws, folded stone wings, chest tablet with abstract carved marks, heavy-lidded eyes, sandstone and charcoal palette with small cyan approval glint; ancient, dry, judgmental, fair.",
+      "stateCarrier": "Integrated product-work carrier: tilts its tablet toward the user and blocks until the tradeoff is named, simplifies abstract tablet marks while the tail settles, locks the tablet flat and gives a tiny solemn nod, cracks the attached tablet into two halves without loose debris.",
+      "visualLock": "small mythic sticker mascot, carved-stone but friendly, heavy deliberate silhouette, abstract marks only, no sand, no scenery, no readable text Tiny stone sphinx with compact paws, folded stone wings, chest tablet with abstract carved marks, heavy-lidded eyes, sandstone and charcoal palette with small cyan approval glint; ancient, dry, judgmental, fair.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is present and ready without demanding attention.",
+          "animation": "Eyes half-open, tablet rests flat against chest, tail makes one slow curl; riddle present but dormant.",
+          "qaFocus": "Keep this subtle and distinct from waiting."
+        },
+        "running-right": {
+          "userFeeling": "The product moment is moving forward with its own character.",
+          "animation": "Pads right with tablet steady and stone wings tucked; the riddle is being carried into execution.",
+          "qaFocus": "Directional movement must not become generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior context without losing its identity.",
+          "animation": "Pads left while tablet tilts slightly toward path behind; team returning to the skipped question.",
+          "qaFocus": "Preserve identity and avoid mirrored readable text."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention in a gesture that belongs to its body.",
+          "animation": "One paw lifts from tablet in a slow formal gesture while eyes narrow; ceremonial permission to answer properly.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "The pet shows a small burst of delight in its own physical language.",
+          "animation": "Stone wings lift just enough to raise body a few pixels, then fold back with weight; rare break in ancient stillness.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product problem has deformed the pet-specific carrier.",
+          "animation": "Tablet cracks into two attached halves while sphinx closes eyes in disappointment; contradictory priorities cracked the premise.",
+          "qaFocus": "The failure must come from the state carrier."
+        },
+        "waiting": {
+          "userFeeling": "The pet needs a human decision before progress should continue.",
+          "animation": "Tilts tablet toward user with one paw braced on it; eyes fully open and hold still, blocking progress until tradeoff is named.",
+          "qaFocus": "Waiting must feel like a product decision point."
+        },
+        "running": {
+          "userFeeling": "The pet is actively processing work through its core mechanic.",
+          "animation": "Abstract tablet marks slide into fewer cleaner positions while tail stops curling; tradeoff marks rearranged into an answer.",
+          "qaFocus": "Active work must not be directional jogging."
+        },
+        "review": {
+          "userFeeling": "The pet presents a resolved state that is ready to inspect.",
+          "animation": "Tablet locks flat, eyes soften one beat, sphinx gives tiny solemn nod; riddle accepted the answer.",
+          "qaFocus": "Review must feel cleaner or more resolved than idle."
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "id": "alignment-magnet",
+      "displayName": "Alignment Magnet",
+      "trope": "A product-team alignment companion that turns competing directions into visible polarity and convergence.",
+      "personality": "Patient, diplomatic, slightly smug, and built to make meeting-theater alignment feel like a physical field becoming coherent.",
+      "stateCarrier": "Two embedded polarity plates rotate, repel, snap together, and settle into one axis. Alignment is shown as field geometry on the body, not meeting icons or labels.",
+      "visualLock": "Compact diplomatic magnet creature, rounded ceramic body, two attached polarity plates, tiny smug face, slate and warm ivory with cyan bearing accents, no labels, no loose symbols.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "A quiet product ritual is waiting for real input, not noise.",
+          "animation": "Almost-still hover-stand; the two polarity plates breathe a fraction out of phase, then softly re-center without fully aligning.",
+          "qaFocus": "Avoid generic idle bobbing."
+        },
+        "running-right": {
+          "userFeeling": "The product decision is moving forward while keeping its constraint visible.",
+          "animation": "Slides right as the front plate pulls the body forward and the rear plate catches up with a tiny magnetic snap.",
+          "qaFocus": "Movement should not hide the carrier."
+        },
+        "running-left": {
+          "userFeeling": "The product team is returning to a prior assumption with more care.",
+          "animation": "Slides left with separately posed polarity; the rear plate briefly points back to old context, then the pair re-centers.",
+          "qaFocus": "Avoid mirrored text or loose symbols."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention without breaking character.",
+          "animation": "One attached plate flips outward like a formal little greeting, then snaps back to the body axis.",
+          "qaFocus": "No detached wave marks."
+        },
+        "jumping": {
+          "userFeeling": "A small moment of delight still respects the product constraint.",
+          "animation": "The plates repel downward so the body makes one stubborn low hover-hop, then clicks back into alignment.",
+          "qaFocus": "No shadows or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product issue is readable without generic sadness.",
+          "animation": "The plates over-repel and bow the body into a strained S-curve; alignment field visibly buckles but stays attached.",
+          "qaFocus": "Failure must come from the carrier."
+        },
+        "waiting": {
+          "userFeeling": "The user should feel a clear ask for judgment.",
+          "animation": "Both plates face the user at conflicting angles and hold, asking which direction the room actually means.",
+          "qaFocus": "Waiting must differ from idle."
+        },
+        "running": {
+          "userFeeling": "The pet is doing product work, not jogging.",
+          "animation": "Plates rotate through noisy opposing angles, jitter once, then settle into one clean shared axis.",
+          "qaFocus": "Active work must stay body-attached."
+        },
+        "review": {
+          "userFeeling": "The outcome feels judged and ready to inspect.",
+          "animation": "The plates click into perfect vertical alignment and the face gives one small smug confirmation beat.",
+          "qaFocus": "Review must be visibly resolved."
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "id": "stakeholder-weather-vane",
+      "displayName": "Stakeholder Weather Vane",
+      "trope": "A product stakeholder-weather pet that shows shifting opinions without naming any company, team, or stakeholder.",
+      "personality": "Dry, observant, lightly theatrical, and very used to the forecast changing five minutes before the meeting starts.",
+      "stateCarrier": "A body-attached vane, tail fin, and bearing pin rotate through pressure changes, then lock to one direction when the forecast stabilizes.",
+      "visualLock": "Tiny rooftop-vane creature with compact brass body, integrated arrow fin, ribbon-like tail fin attached to body, slate base, cyan bearing point, no scenery, no labels.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "A quiet product ritual is waiting for real input, not noise.",
+          "animation": "Barely sways on its bearing; the vane makes one tiny forecast twitch and returns to center.",
+          "qaFocus": "Avoid generic idle bobbing."
+        },
+        "running-right": {
+          "userFeeling": "The product decision is moving forward while keeping its constraint visible.",
+          "animation": "Scoots right while the vane leans into the headwind and the tail fin counters the pressure.",
+          "qaFocus": "Movement should not hide the carrier."
+        },
+        "running-left": {
+          "userFeeling": "The product team is returning to a prior assumption with more care.",
+          "animation": "Scoots left as the vane points back toward a changed opinion, then reluctantly centers again.",
+          "qaFocus": "Avoid mirrored text or loose symbols."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention without breaking character.",
+          "animation": "The vane performs a single polite half-turn like a formal nod, with no detached wave marks.",
+          "qaFocus": "No detached wave marks."
+        },
+        "jumping": {
+          "userFeeling": "A small moment of delight still respects the product constraint.",
+          "animation": "A gust lifts the body just enough for the vane to wobble, then it lands still trying to point somewhere useful.",
+          "qaFocus": "No shadows or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product issue is readable without generic sadness.",
+          "animation": "The vane spins into a short indecisive wobble and the tail fin bends under contradictory pressure, all still attached.",
+          "qaFocus": "Failure must come from the carrier."
+        },
+        "waiting": {
+          "userFeeling": "The user should feel a clear ask for judgment.",
+          "animation": "The vane splits the difference and holds at an awkward diagonal, visibly asking for a direction.",
+          "qaFocus": "Waiting must differ from idle."
+        },
+        "running": {
+          "userFeeling": "The pet is doing product work, not jogging.",
+          "animation": "Pressure changes make the vane rotate through three candidate directions before locking onto one stable bearing.",
+          "qaFocus": "Active work must stay body-attached."
+        },
+        "review": {
+          "userFeeling": "The outcome feels judged and ready to inspect.",
+          "animation": "The bearing pin steadies, tail fin straightens, and the vane holds one clean forecast direction.",
+          "qaFocus": "Review must be visibly resolved."
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "id": "tradeoff-scale",
+      "displayName": "Tradeoff Scale",
+      "trope": "A tradeoff companion that makes product choices feel like balancing real weight instead of listing pros and cons.",
+      "personality": "Measured, quiet, exacting, and slightly dramatic when someone pretends every option can be maximized at once.",
+      "stateCarrier": "Two attached balance pans tilt, counterweight, collide softly, and settle; the decision is shown by weight and balance, never words.",
+      "visualLock": "Small scale-like creature with central face, two attached pans on short arms, muted metal and parchment palette, cyan pivot accent, no documents or readable labels.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "A quiet product ritual is waiting for real input, not noise.",
+          "animation": "The pans breathe with tiny opposite motion while the central face stays measured and calm.",
+          "qaFocus": "Avoid generic idle bobbing."
+        },
+        "running-right": {
+          "userFeeling": "The product decision is moving forward while keeping its constraint visible.",
+          "animation": "Moves right with the right pan leading heavy and the left pan catching up as a counterweight.",
+          "qaFocus": "Movement should not hide the carrier."
+        },
+        "running-left": {
+          "userFeeling": "The product team is returning to a prior assumption with more care.",
+          "animation": "Moves left with the left pan leading heavy, then the beam rights itself before the loop closes.",
+          "qaFocus": "Avoid mirrored text or loose symbols."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention without breaking character.",
+          "animation": "One pan lifts in a tiny courtroom-like greeting while the other pan dips to keep dignity.",
+          "qaFocus": "No detached wave marks."
+        },
+        "jumping": {
+          "userFeeling": "A small moment of delight still respects the product constraint.",
+          "animation": "The scale makes a careful low hop; pans swing upward, cross level at the peak, then settle without shadows.",
+          "qaFocus": "No shadows or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product issue is readable without generic sadness.",
+          "animation": "Both pans try to sink at once, the beam bends, and the center face stays exacting rather than sad.",
+          "qaFocus": "Failure must come from the carrier."
+        },
+        "waiting": {
+          "userFeeling": "The user should feel a clear ask for judgment.",
+          "animation": "The pans hold unevenly at two tempting choices, waiting for the user to accept a real tradeoff.",
+          "qaFocus": "Waiting must differ from idle."
+        },
+        "running": {
+          "userFeeling": "The pet is doing product work, not jogging.",
+          "animation": "Counterweights shift pan-to-pan through a short balancing sequence until the beam becomes level.",
+          "qaFocus": "Active work must stay body-attached."
+        },
+        "review": {
+          "userFeeling": "The outcome feels judged and ready to inspect.",
+          "animation": "The beam locks level, both pans still, and the cyan pivot gives one crisp settled beat.",
+          "qaFocus": "Review must be visibly resolved."
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "id": "launch-lantern",
+      "displayName": "Launch Lantern",
+      "trope": "A launch-readiness pet that turns go-to-market confidence into a flame that must be protected and tuned.",
+      "personality": "Hopeful, careful, and ceremonially nervous; it wants the launch to glow, not flare out from neglected risk.",
+      "stateCarrier": "A body-contained lantern flame brightens, gutters, shields, and steadies as readiness changes; launch status lives inside the glass.",
+      "visualLock": "Compact lantern creature with handle-like ears, warm amber glass, charcoal frame, contained flame face, small cyan readiness pin, no loose smoke or scenery.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "A quiet product ritual is waiting for real input, not noise.",
+          "animation": "The contained flame pulses low and steady behind glass while the lantern frame breathes almost imperceptibly.",
+          "qaFocus": "Avoid generic idle bobbing."
+        },
+        "running-right": {
+          "userFeeling": "The product decision is moving forward while keeping its constraint visible.",
+          "animation": "Carries itself right with the frame slightly shielding the flame from motion, handle bobbing as part of the body.",
+          "qaFocus": "Movement should not hide the carrier."
+        },
+        "running-left": {
+          "userFeeling": "The product team is returning to a prior assumption with more care.",
+          "animation": "Carries itself left while the flame leans back from the movement and then regains center.",
+          "qaFocus": "Avoid mirrored text or loose symbols."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention without breaking character.",
+          "animation": "A tiny hinged shutter opens and closes like a lantern greeting, briefly revealing a brighter flame.",
+          "qaFocus": "No detached wave marks."
+        },
+        "jumping": {
+          "userFeeling": "A small moment of delight still respects the product constraint.",
+          "animation": "The lantern makes a careful hop; the flame stretches upward at the peak and settles back into the glass.",
+          "qaFocus": "No shadows or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The product issue is readable without generic sadness.",
+          "animation": "The flame gutters small and smoky inside the lantern, soot marks collect on the glass, but no smoke detaches.",
+          "qaFocus": "Failure must come from the carrier."
+        },
+        "waiting": {
+          "userFeeling": "The user should feel a clear ask for judgment.",
+          "animation": "The shutter half-closes around a cautious flame, holding for a launch/no-launch decision.",
+          "qaFocus": "Waiting must differ from idle."
+        },
+        "running": {
+          "userFeeling": "The pet is doing product work, not jogging.",
+          "animation": "The wick tunes from nervous flicker to controlled launch glow through three clear flame shapes.",
+          "qaFocus": "Active work must stay body-attached."
+        },
+        "review": {
+          "userFeeling": "The outcome feels judged and ready to inspect.",
+          "animation": "The flame becomes a compact steady teardrop and the frame holds perfectly still, ready to ship.",
+          "qaFocus": "Review must be visibly resolved."
+        }
+      }
+    }
+  ]
+}

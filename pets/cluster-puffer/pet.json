@@ -1,0 +1,6 @@
+{
+  "id": "cluster-puffer",
+  "displayName": "Cluster Puffer",
+  "description": "A scheduler puffer whose body spots inflate in balanced groups instead of copying any cluster logo.",
+  "spritesheetPath": "spritesheet.webp"
+}

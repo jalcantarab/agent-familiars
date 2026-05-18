@@ -1,0 +1,6 @@
+{
+  "id": "database-mole",
+  "displayName": "Database Mole",
+  "description": "A schema mole that packs attached row-like blocks into neat layers.",
+  "spritesheetPath": "spritesheet.webp"
+}

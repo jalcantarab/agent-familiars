@@ -1,0 +1,6 @@
+{
+  "id": "goroutine-gecko",
+  "displayName": "Goroutine Gecko",
+  "description": "A service-concurrency gecko whose sticky toes and staggered spots keep parallel work coordinated.",
+  "spritesheetPath": "spritesheet.webp"
+}

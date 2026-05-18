@@ -1,0 +1,6 @@
+{
+  "id": "fixture-fox",
+  "displayName": "Fixture Fox",
+  "description": "A test-fixture fox that arranges attached sample blocks with clever paw work.",
+  "spritesheetPath": "spritesheet.webp"
+}

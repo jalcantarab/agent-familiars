@@ -1,0 +1,6 @@
+{
+  "id": "container-hermit",
+  "displayName": "Container Hermit",
+  "description": "A local-services hermit crab whose compartment shell starts, stops, and settles one module at a time.",
+  "spritesheetPath": "spritesheet.webp"
+}

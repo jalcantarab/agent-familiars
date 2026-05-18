@@ -1,0 +1,6 @@
+{
+  "id": "borrow-badger",
+  "displayName": "Borrow Badger",
+  "description": "An ownership badger that guards one attached token-pebble through borrow decisions.",
+  "spritesheetPath": "spritesheet.webp"
+}

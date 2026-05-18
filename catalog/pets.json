@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "zentri",
+    "displayName": "Zentri",
+    "folder": "pets/zentri",
+    "description": "A Zentrik-inspired folded-paper crane mascot with crisp charcoal crease lines and a bright cyan brand accent.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "zentrik",
+      "product",
+      "origami",
+      "pm",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "signal-surface",
+    "displayName": "Signal Surface",
+    "folder": "pets/signal-surface",
+    "description": "A quiet status surface that uses color, scan lines, and glassy motion to make Codex state changes readable at a glance.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "utility",
+      "non-creature",
+      "state-instruments",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "intent-compass",
+    "displayName": "Intent Compass",
+    "folder": "pets/intent-compass",
+    "description": "A tiny compass familiar that shows direction, indecision, work, review, and failure through a living needle.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "state-instruments",
+      "utility",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "thread-totem",
+    "displayName": "Thread Totem",
+    "folder": "pets/thread-totem",
+    "description": "A bead-and-cord familiar that turns agent state into paused, flowing, aligned, or tangled threads.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "state-instruments",
+      "utility",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "pocket-oracle",
+    "displayName": "Pocket Oracle",
+    "folder": "pets/pocket-oracle",
+    "description": "A small tablet familiar whose aperture opens, clouds, scans, and waits as Codex changes state.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "state-instruments",
+      "utility",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "loop-loom",
+    "displayName": "Loop Loom",
+    "folder": "pets/loop-loom",
+    "description": "A miniature loom familiar that shows active work, waiting, review, and failure through a single woven loop.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "state-instruments",
+      "utility",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "tide-stone",
+    "displayName": "Tide Stone",
+    "folder": "pets/tide-stone",
+    "description": "A polished stone familiar with liquid light inside, built for calm but readable Codex state changes.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "codex",
+      "status",
+      "state-instruments",
+      "utility",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "merge-mammoth",
+    "displayName": "Merge Mammoth",
+    "folder": "pets/merge-mammoth",
+    "description": "A huge but gentle merge-conflict mammoth that untangles branches with patient trunk work.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "merge-conflict",
+      "git",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "ci-phoenix",
+    "displayName": "CI Phoenix",
+    "folder": "pets/ci-phoenix",
+    "description": "A compact CI recovery phoenix whose attached flame-feathers rebuild from failure into passing checks.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "ci",
+      "checks",
+      "builds",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "patch-panda",
+    "displayName": "Patch Panda",
+    "folder": "pets/patch-panda",
+    "description": "A meticulous panda that applies tiny repair patches with careful tactile paw work.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "patches",
+      "repairs",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "product-crane",
+    "displayName": "Product Crane",
+    "folder": "pets/product-crane",
+    "description": "A precise planning crane that organizes product intent with calm long-form attention.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "planning",
+      "prioritization",
+      "pm",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "no-knight",
+    "displayName": "No Knight",
+    "folder": "pets/no-knight",
+    "description": "A tiny roadmap knight that protects focus with a giant shield-billboard.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "prioritization",
+      "focus",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "feature-hydra",
+    "displayName": "Feature Hydra",
+    "folder": "pets/feature-hydra",
+    "description": "A charming product hydra whose feature heads regrow when scope is cut badly.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "scope",
+      "feature-creep",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "mvp-bonsai",
+    "displayName": "MVP Bonsai",
+    "folder": "pets/mvp-bonsai",
+    "description": "A disciplined little bonsai pet that shows product taste through pruning.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "mvp",
+      "scope",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "backlog-archaeologist",
+    "displayName": "Backlog Archaeologist",
+    "folder": "pets/backlog-archaeologist",
+    "description": "A tiny explorer that excavates ancient backlog fossils with scholarly suspicion.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "backlog",
+      "triage",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "signal-heron",
+    "displayName": "Signal Heron",
+    "folder": "pets/signal-heron",
+    "description": "A zen folded heron that hears customer signal by becoming still.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "signal",
+      "research",
+      "zentrik",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "priority-sphinx",
+    "displayName": "Priority Sphinx",
+    "folder": "pets/priority-sphinx",
+    "description": "A tiny sphinx that blocks progress until the real tradeoff is answered.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "prioritization",
+      "tradeoffs",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "alignment-magnet",
+    "displayName": "Alignment Magnet",
+    "folder": "pets/alignment-magnet",
+    "description": "A product-team alignment companion that turns competing directions into visible polarity and convergence.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "alignment",
+      "decision-making",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "stakeholder-weather-vane",
+    "displayName": "Stakeholder Weather Vane",
+    "folder": "pets/stakeholder-weather-vane",
+    "description": "A product stakeholder-weather pet that shows shifting opinions without naming any company, team, or stakeholder.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "stakeholders",
+      "alignment",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "tradeoff-scale",
+    "displayName": "Tradeoff Scale",
+    "folder": "pets/tradeoff-scale",
+    "description": "A tradeoff companion that makes product choices feel like balancing real weight instead of listing pros and cons.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "tradeoffs",
+      "prioritization",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "launch-lantern",
+    "displayName": "Launch Lantern",
+    "folder": "pets/launch-lantern",
+    "description": "A launch-readiness pet that turns go-to-market confidence into a flame that must be protected and tuned.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "launch",
+      "readiness",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
+    "id": "test-tortoise",
+    "displayName": "Test Tortoise",
+    "folder": "pets/test-tortoise",
+    "description": "A slow reliable test-runner tortoise whose shell panels move through a tidy test matrix.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "testing",
+      "qa",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "diff-dragon",
+    "displayName": "Diff Dragon",
+    "folder": "pets/diff-dragon",
+    "description": "A restrained large-diff dragon that scans changes with its eyes and marks review targets with its tail.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "diff",
+      "review",
+      "pull-request",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "queue-crab",
+    "displayName": "Queue Crab",
+    "folder": "pets/queue-crab",
+    "description": "A sideways job-queue crab whose claws track pending work and pull tasks into motion.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "queues",
+      "jobs",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "context-cat",
+    "displayName": "Context Cat",
+    "folder": "pets/context-cat",
+    "description": "A long-context cat that curls around work, guards boundaries, and untangles overload into focused review.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "context",
+      "long-context",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "prompt-parrot",
+    "displayName": "Prompt Parrot",
+    "folder": "pets/prompt-parrot",
+    "description": "A prompt-refinement parrot whose beak cadence and feathers reorder ideas into sharper instructions.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "prompts",
+      "prompting",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "build-bot",
+    "displayName": "Build Bot",
+    "folder": "pets/build-bot",
+    "description": "A tiny build robot whose chest panel and antenna show build progress, input, and failure.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "builds",
+      "automation",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "cache-squirrel",
+    "displayName": "Cache Squirrel",
+    "folder": "pets/cache-squirrel",
+    "description": "A dependency-cache squirrel that stashes tiny cache blocks in its tail pockets.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "cache",
+      "dependencies",
+      "performance",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "latency-lemur",
+    "displayName": "Latency Lemur",
+    "folder": "pets/latency-lemur",
+    "description": "A performance lemur whose striped tail behaves like a tiny timing graph.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "performance",
+      "latency",
+      "observability",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "trace-manta",
+    "displayName": "Trace Manta",
+    "folder": "pets/trace-manta",
+    "description": "An observability manta whose fins ripple like trace spans flowing downstream.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "observability",
+      "tracing",
+      "performance",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "log-lynx",
+    "displayName": "Log Lynx",
+    "folder": "pets/log-lynx",
+    "description": "A quiet log-scanning lynx whose ear tufts and paw pauses find the exact line.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "logs",
+      "observability",
+      "debugging",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "database-mole",
+    "displayName": "Database Mole",
+    "folder": "pets/database-mole",
+    "description": "A schema mole that packs attached row-like blocks into neat layers.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "database",
+      "schema",
+      "migrations",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "fixture-fox",
+    "displayName": "Fixture Fox",
+    "folder": "pets/fixture-fox",
+    "description": "A test-fixture fox that arranges attached sample blocks with clever paw work.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "testing",
+      "fixtures",
+      "test-data",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "type-terrier",
+    "displayName": "Type Terrier",
+    "folder": "pets/type-terrier",
+    "description": "A compiler-error terrier that digs at type mismatches until the overload is clear.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "typescript",
+      "types",
+      "compiler",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "python-pangolin",
+    "displayName": "Python Pangolin",
+    "folder": "pets/python-pangolin",
+    "description": "A refactor pangolin whose scales flip in indentation-like steps while it edits.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "python",
+      "refactor",
+      "notebooks",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "borrow-badger",
+    "displayName": "Borrow Badger",
+    "folder": "pets/borrow-badger",
+    "description": "An ownership badger that guards one attached token-pebble through borrow decisions.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "rust",
+      "ownership",
+      "systems",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "goroutine-gecko",
+    "displayName": "Goroutine Gecko",
+    "folder": "pets/goroutine-gecko",
+    "description": "A service-concurrency gecko whose sticky toes and staggered spots keep parallel work coordinated.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "go",
+      "concurrency",
+      "services",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "react-gecko",
+    "displayName": "React Gecko",
+    "folder": "pets/react-gecko",
+    "description": "A frontend state gecko whose sticky toes and color patches make component state transitions visible.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "frontend",
+      "react",
+      "state",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "design-finch",
+    "displayName": "Design Finch",
+    "folder": "pets/design-finch",
+    "description": "A UI QA finch that measures spacing and nudges alignment with tiny precise hops.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "design",
+      "ui",
+      "qa",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "release-rocket",
+    "displayName": "Release Rocket",
+    "folder": "pets/release-rocket",
+    "description": "A controlled deployment rocket whose fins and attached flame announce launch readiness without panic.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "release",
+      "deployment",
+      "devops",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "incident-axolotl",
+    "displayName": "Incident Axolotl",
+    "folder": "pets/incident-axolotl",
+    "description": "A calm incident responder whose frills pulse like steady breathing during escalation and recovery.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "incident",
+      "sre",
+      "support",
+      "ops",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "docs-jelly",
+    "displayName": "Docs Jelly",
+    "folder": "pets/docs-jelly",
+    "description": "A documentation jelly whose bell and tendrils organize rough knowledge into readable structure.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "docs",
+      "knowledge",
+      "writing",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "refactor-rabbit",
+    "displayName": "Refactor Rabbit",
+    "folder": "pets/refactor-rabbit",
+    "description": "A tidy refactor rabbit that rearranges attached code blocks into simpler shapes.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "refactor",
+      "code-quality",
+      "engineering",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "approval-alpaca",
+    "displayName": "Approval Alpaca",
+    "folder": "pets/approval-alpaca",
+    "description": "A patient approval alpaca whose long neck and woolly posture make human handoff feel calm.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "approval",
+      "human-in-the-loop",
+      "product",
+      "ops",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "sandbox-seal",
+    "displayName": "Sandbox Seal",
+    "folder": "pets/sandbox-seal",
+    "description": "A compact sandbox seal that pats safe experiment boundaries into place before anything escapes.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "sandbox",
+      "experiments",
+      "testing",
+      "devtools",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "security-sentinel",
+    "displayName": "Security Sentinel",
+    "folder": "pets/security-sentinel",
+    "description": "A small secure-review sentinel that scans trust boundaries with quiet checkpoint posture.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "security",
+      "review",
+      "supply-chain",
+      "trust",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "pixel-penguin",
+    "displayName": "Pixel Penguin",
+    "folder": "pets/pixel-penguin",
+    "description": "A blocky server-room penguin whose square waddle and belly panels announce quiet system checks.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "linux",
+      "servers",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "container-hermit",
+    "displayName": "Container Hermit",
+    "folder": "pets/container-hermit",
+    "description": "A local-services hermit crab whose compartment shell starts, stops, and settles one module at a time.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "containers",
+      "local-services",
+      "devtools",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "cluster-puffer",
+    "displayName": "Cluster Puffer",
+    "folder": "pets/cluster-puffer",
+    "description": "A scheduler puffer whose body spots inflate in balanced groups instead of copying any cluster logo.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "clusters",
+      "scheduling",
+      "infra",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "search-salmon",
+    "displayName": "Search Salmon",
+    "folder": "pets/search-salmon",
+    "description": "A code-search salmon that swims upstream through results, tail beats acting like query refinements.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "search",
+      "navigation",
+      "developer",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "schema-snail",
+    "displayName": "Schema Snail",
+    "folder": "pets/schema-snail",
+    "description": "A careful schema snail whose shell bands align one notch at a time before anything migrates.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "schema",
+      "api",
+      "migrations",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "roadmap-raven",
+    "displayName": "Roadmap Raven",
+    "folder": "pets/roadmap-raven",
+    "description": "A planning raven whose tail feathers behave like timeline lanes and reorder by priority.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "roadmap",
+      "planning",
+      "product",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "meeting-moth",
+    "displayName": "Meeting Moth",
+    "folder": "pets/meeting-moth",
+    "description": "A transcript moth whose wings fold from chatter into a tidy summary shape.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "meetings",
+      "transcripts",
+      "summaries",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "notebook-newt",
+    "displayName": "Notebook Newt",
+    "folder": "pets/notebook-newt",
+    "description": "A data notebook newt whose tail marks cell execution order and knots when results break.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "notebooks",
+      "data",
+      "python",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "migration-mantis",
+    "displayName": "Migration Mantis",
+    "folder": "pets/migration-mantis",
+    "description": "A precise migration mantis that moves one attached block from old path to new path with surgical care.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "migrations",
+      "refactor",
+      "database",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "demo-dolphin",
+    "displayName": "Demo Dolphin",
+    "folder": "pets/demo-dolphin",
+    "description": "A product-demo dolphin that presents story beats with smooth, restrained showmanship.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "demo",
+      "product",
+      "storytelling",
+      "agent-workflows"
+    ]
+  },
+  {
+    "id": "terminal-ghost",
+    "displayName": "Terminal Ghost",
+    "folder": "pets/terminal-ghost",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "terminal",
+      "cli",
+      "developer"
+    ]
+  },
+  {
+    "id": "review-owl",
+    "displayName": "Review Owl",
+    "folder": "pets/review-owl",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "review",
+      "pull-request",
+      "diff"
+    ]
+  },
+  {
+    "id": "bug-hunter",
+    "displayName": "Bug Hunter",
+    "folder": "pets/bug-hunter",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "debugging",
+      "bugs"
+    ]
+  },
+  {
+    "id": "bug-searcher",
+    "displayName": "Bug Searcher",
+    "folder": "pets/bug-searcher",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "debugging",
+      "search"
+    ]
+  },
+  {
+    "id": "rubber-duck-2-0",
+    "displayName": "Rubber Duck 2.0",
+    "folder": "pets/rubber-duck-2-0",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "debugging",
+      "rubber-ducking",
+      "ai-coding"
+    ]
+  },
+  {
+    "id": "token-vampire",
+    "displayName": "Token Vampire",
+    "folder": "pets/token-vampire",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "tokens",
+      "limits",
+      "context"
+    ]
+  },
+  {
+    "id": "ladybug-dev",
+    "displayName": "Ladybug Dev",
+    "folder": "pets/ladybug-dev",
+    "origin": "imported",
+    "author": "Gennadii Kuzmin",
+    "sourceUrl": "https://github.com/gennadi-kuzmin/awesome-codex-pets",
+    "license": "MIT",
+    "tags": [
+      "bugs",
+      "developer"
+    ]
+  },
+  {
+    "id": "toffee",
+    "displayName": "Toffee",
+    "folder": "pets/toffee",
+    "origin": "imported",
+    "author": "mertcreates",
+    "sourceUrl": "https://github.com/mertcreates/codex-paws",
+    "license": "CC BY 4.0",
+    "tags": [
+      "dog",
+      "companion"
+    ]
+  },
+  {
+    "id": "rozi",
+    "displayName": "Rozi",
+    "folder": "pets/rozi",
+    "origin": "imported",
+    "author": "mertcreates",
+    "sourceUrl": "https://github.com/mertcreates/codex-paws",
+    "license": "CC BY 4.0",
+    "tags": [
+      "cat",
+      "companion"
+    ]
+  },
+  {
+    "id": "tabby",
+    "displayName": "Tabby",
+    "folder": "pets/tabby",
+    "origin": "imported",
+    "author": "Xi Xu",
+    "sourceUrl": "https://github.com/xixu-me/codex-pets",
+    "license": "MIT",
+    "tags": [
+      "cat",
+      "compact"
+    ]
+  }
+]

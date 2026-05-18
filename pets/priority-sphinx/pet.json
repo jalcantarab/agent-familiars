@@ -1,0 +1,6 @@
+{
+  "id": "priority-sphinx",
+  "displayName": "Priority Sphinx",
+  "description": "A tiny sphinx that blocks progress until the real tradeoff is answered.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "release-rocket",
+  "displayName": "Release Rocket",
+  "description": "A controlled deployment rocket whose fins and attached flame announce launch readiness without panic.",
+  "spritesheetPath": "spritesheet.webp"
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "title": "State Instruments",
+  "subtitle": "quiet status familiars",
+  "preset": "comparison",
+  "theme": "familiars-dark",
+  "slug": "state-instruments-comparison",
+  "outputs": {
+    "formats": ["gif", "poster"],
+    "dir": "output/sequences"
+  },
+  "scenes": [
+    {
+      "layout": "comparison",
+      "pets": [
+        "signal-surface",
+        "intent-compass",
+        "thread-totem",
+        "pocket-oracle",
+        "loop-loom",
+        "tide-stone"
+      ],
+      "beats": "profile.best"
+    }
+  ]
+}

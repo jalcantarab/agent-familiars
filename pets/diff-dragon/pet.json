@@ -1,0 +1,6 @@
+{
+  "id": "diff-dragon",
+  "displayName": "Diff Dragon",
+  "description": "A restrained large-diff dragon that scans changes with its eyes and marks review targets with its tail.",
+  "spritesheetPath": "spritesheet.webp"
+}

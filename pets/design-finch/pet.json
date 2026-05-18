@@ -1,0 +1,6 @@
+{
+  "id": "design-finch",
+  "displayName": "Design Finch",
+  "description": "A UI QA finch that measures spacing and nudges alignment with tiny precise hops.",
+  "spritesheetPath": "spritesheet.webp"
+}

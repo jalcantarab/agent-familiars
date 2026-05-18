@@ -1,0 +1,6 @@
+{
+  "id": "ci-phoenix",
+  "displayName": "CI Phoenix",
+  "description": "A compact CI recovery phoenix whose attached flame-feathers rebuild from failure into passing checks.",
+  "spritesheetPath": "spritesheet.webp"
+}

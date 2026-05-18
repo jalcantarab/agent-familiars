@@ -1,0 +1,6 @@
+{
+  "id": "context-cat",
+  "displayName": "Context Cat",
+  "description": "A long-context cat that curls around work, guards boundaries, and untangles overload into focused review.",
+  "spritesheetPath": "spritesheet.webp"
+}
