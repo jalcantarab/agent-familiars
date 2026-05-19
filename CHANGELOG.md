@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.2 - 2026-05-19
+
+- Repaints RICE Centurion and Queue Quixote with full illustrated state rows.
+- Regenerates their Codex spritesheets, preview GIFs, and contact sheets with
+  complete state-specific motion inside the fixed pet atlas frame counts.
+
 ## v0.1.1 - 2026-05-19
 
 - Adds Queue Quixote to the product-folklore pack.
