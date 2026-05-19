@@ -1,0 +1,6 @@
+{
+  "id": "queue-quixote",
+  "displayName": "Queue Quixote",
+  "description": "A hopeful backlog knight who tilts at stale queues and product windmills.",
+  "spritesheetPath": "spritesheet.webp"
+}

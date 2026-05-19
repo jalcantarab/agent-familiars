@@ -644,6 +644,62 @@
           "qaFocus": "Review should feel cleaner and more resolved than running."
         }
       }
+    },
+    {
+      "rank": 12,
+      "id": "queue-quixote",
+      "displayName": "Queue Quixote",
+      "trope": "Idealistic backlog knight who treats stale queues, inherited requests, and imagined roadmap windmills as noble product quests.",
+      "personality": "Tall, hopeful, a little too ready to charge; affectionate product satire for teams that need courage and reality checks in equal measure.",
+      "stateCarrier": "Integrated product-work carrier: a lance tied with blank queue tickets and a buckler with colored queue-token beads that shift from quest energy to grounded judgment.",
+      "visualLock": "Original painterly sticker sprite, lanky public-domain-inspired knight errant, battered basin-like helmet, curled moustache, patched silver armor, ragged cape, long lance with blank tickets, small buckler with colored token beads, no readable text, no modern adaptation styling.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is ready to help, but still charmingly over-idealistic.",
+          "animation": "Stands tall with the lance upright; blank queue tickets barely stir while the buckler stays close.",
+          "qaFocus": "Idle must be calm and readable despite the tall lance."
+        },
+        "running-right": {
+          "userFeeling": "The pet is charging toward a suspected backlog giant.",
+          "animation": "Tilts lance-first to the right with the cape and tickets trailing behind.",
+          "qaFocus": "Must read as a Quixote charge, not generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet reconsiders the quest and charges the other way.",
+          "animation": "Separate left-facing charge, still lance-led, with buckler and cape pulled by momentum.",
+          "qaFocus": "Keep lance and buckler visible without crop."
+        },
+        "waving": {
+          "userFeeling": "The pet asks for attention with old-world courtesy.",
+          "animation": "Gives a courtly buckler salute while keeping the lance upright.",
+          "qaFocus": "No wave marks or floating effects."
+        },
+        "jumping": {
+          "userFeeling": "A tiny burst of heroic confidence lands lightly.",
+          "animation": "Makes a small knightly hop; the lance and paper tickets lag slightly at the peak.",
+          "qaFocus": "No shadows, dust, or detached impact marks."
+        },
+        "failed": {
+          "userFeeling": "The pet has bravely charged the wrong problem.",
+          "animation": "Slumps with helmet slipped and lance bent, while the buckler droops but stays attached.",
+          "qaFocus": "Failure should feel like mistaken conviction, not generic sadness."
+        },
+        "waiting": {
+          "userFeeling": "The user should provide the reality check before the next charge.",
+          "animation": "Offers the buckler forward, as if asking whether the quest is real.",
+          "qaFocus": "Waiting must read as a request for human judgment."
+        },
+        "running": {
+          "userFeeling": "The pet is turning romantic quest energy into actual queue work.",
+          "animation": "Sorts blank queue tickets along the lance with focused, slightly fussy motion.",
+          "qaFocus": "Active work must stay in the lance tickets, not directional jogging."
+        },
+        "review": {
+          "userFeeling": "The quest has been grounded into product judgment.",
+          "animation": "Leans close and nudges one colored buckler token into place.",
+          "qaFocus": "Review should feel calmer and more resolved than running."
+        }
+      }
     }
   ]
 }
