@@ -356,6 +356,24 @@
     ]
   },
   {
+    "id": "rice-centurion",
+    "displayName": "RICE Centurion",
+    "folder": "pets/rice-centurion",
+    "description": "A clumsy prioritization legionary that scores product work on a wax-tablet shield.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "prioritization",
+      "rice",
+      "scoring",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
     "id": "test-tortoise",
     "displayName": "Test Tortoise",
     "folder": "pets/test-tortoise",

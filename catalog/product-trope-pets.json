@@ -588,6 +588,62 @@
           "qaFocus": "Review must be visibly resolved."
         }
       }
+    },
+    {
+      "rank": 11,
+      "id": "rice-centurion",
+      "displayName": "RICE Centurion",
+      "trope": "Clumsy prioritization legionary with a wax-tablet shield that scores reach, impact, confidence, and effort without borrowing company marks or showing tiny text.",
+      "personality": "Small earnest antique-comic legionary with crooked red plume, oversized wax-tablet shield, stylus-gladius, stubby sandals, bronze and teal scoring beads; officious, helpful, and just clumsy enough to make prioritization feel human.",
+      "stateCarrier": "Integrated product-work carrier: the wax-tablet shield has four scoring beads that slide, align, jam, or settle to show prioritization state without readable labels.",
+      "visualLock": "Original polished sticker mascot, compact historical silhouette, silver helmet, crooked plume, teal wax tablet, wooden frame, four colored scoring beads, visible stylus hand, no brand marks, no readable text, no modern franchise styling.",
+      "eventFeel": {
+        "idle": {
+          "userFeeling": "The pet is available and disciplined, but not severe.",
+          "animation": "Stands at attention behind the wax-tablet shield; plume bobs, beads barely tremble, sandals stay planted.",
+          "qaFocus": "Keep the scoring surface readable and the motion calm."
+        },
+        "running-right": {
+          "userFeeling": "Prioritization is moving forward, awkwardly but with conviction.",
+          "animation": "Shield-heavy march to the right; tablet tilts first, sandals scramble after it, beads keep their score positions.",
+          "qaFocus": "Must read as tablet-led movement, not generic running."
+        },
+        "running-left": {
+          "userFeeling": "The pet revisits prior assumptions without losing discipline.",
+          "animation": "Shield-heavy march to the left with a separate left-facing cadence; crooked plume and bead layout remain consistent.",
+          "qaFocus": "No mirrored text; preserve tablet identity and gait."
+        },
+        "waving": {
+          "userFeeling": "The pet signals politely, as if requesting a quick estimate.",
+          "animation": "Over-formal stylus salute beside the tablet while the shield stays planted and officious.",
+          "qaFocus": "No wave marks or detached effects."
+        },
+        "jumping": {
+          "userFeeling": "A tiny victory hop lands with antique bureaucracy intact.",
+          "animation": "Disciplined hop where the body rises first and the heavy wax tablet lags, then catches up.",
+          "qaFocus": "No shadows, dust, or impact marks."
+        },
+        "failed": {
+          "userFeeling": "The prioritization surface itself has jammed.",
+          "animation": "Shield tilts into a jammed diagonal score; crest droops and scoring beads sit wrong, but the legionary stays at post.",
+          "qaFocus": "Failure must come from the tablet state carrier."
+        },
+        "waiting": {
+          "userFeeling": "A human needs to provide a missing score or confidence call.",
+          "animation": "Holds the tablet outward with four beads pulled toward the middle while the stylus waits above the surface.",
+          "qaFocus": "Waiting must feel like an estimate request, not idle."
+        },
+        "running": {
+          "userFeeling": "The pet is actively computing priority, not traveling.",
+          "animation": "Scoring beads slide around their channels while the stylus hand recalculates and the body braces behind the tablet.",
+          "qaFocus": "No directional jogging; active work lives in the beads."
+        },
+        "review": {
+          "userFeeling": "The scored result is being inspected with dry fairness.",
+          "animation": "Leans in, narrows focus over the tablet, and nudges one bead into final position with the stylus.",
+          "qaFocus": "Review should feel cleaner and more resolved than running."
+        }
+      }
     }
   ]
 }

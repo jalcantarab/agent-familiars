@@ -412,6 +412,13 @@ See [docs/LICENSING.md](docs/LICENSING.md) for the repository licensing policy.
 - Source: original product-folklore pet generated for this repository
 - License: MIT for the pet bundle in this repository
 
+### RICE Centurion
+
+- Folder: `pets/rice-centurion`
+- Author: Jorge Alcantara / Zentrik
+- Source: original product-folklore pet generated for this repository
+- License: MIT for the pet bundle in this repository
+
 ## Imported Pets
 
 ### Gennadii Kuzmin / Awesome Codex Pets
