@@ -8,6 +8,10 @@ body:
     attributes:
       label: Concept
       description: What should the pet be, and who would love it?
+      placeholder: |
+        A scholarly fossil explorer for backlog archaeology. Perfect for product teams digging through ancient tickets.
+        
+        Visuals: small explorer with fossil-shell backpack, round goggles, and a brush tail.
     validations:
       required: true
   - type: textarea
@@ -15,6 +19,12 @@ body:
     attributes:
       label: Motion language
       description: How should idle, waiting, running, review, and failed feel for this specific character?
+      placeholder: |
+        - idle: brush-tail makes one careful stroke across the fossil shell
+        - waiting: holds up a fossil slab, asking if the old ticket still matters
+        - running: brush-tail clears a sediment layer to reveal an artifact
+        - review: polishes the fossil shell and nods through its goggles
+        - failed: sediment layers slide over its head, burying the decision
     validations:
       required: true
   - type: textarea
@@ -22,5 +32,7 @@ body:
     attributes:
       label: Rights and references
       description: Confirm whether this is original, public-domain, or clearly licensed. Do not request copyrighted characters or company mascots.
+      placeholder: |
+        Original concept. No company marks, logos, or copyrighted characters. Safe to license under MIT.
     validations:
       required: true
