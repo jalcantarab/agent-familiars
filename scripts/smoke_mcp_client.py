@@ -105,11 +105,17 @@ async def run_smoke() -> None:
                 packs_resource = await session.read_resource("familiars://catalog/packs")
                 packs_text = getattr(packs_resource.contents[0], "text", "")
                 packs = json.loads(packs_text)
-                if "product-tropes" not in packs:
+                if not isinstance(packs, dict) or "product-tropes" not in packs:
                     fail("catalog packs resource should include product-tropes")
 
+                pets_resource = await session.read_resource("familiars://catalog/pets")
+                pets_text = getattr(pets_resource.contents[0], "text", "")
+                pets = json.loads(pets_text)
+                if not isinstance(pets, list):
+                    fail("catalog pets resource should be a list")
+
                 validation = decode_tool_json(await session.call_tool("validate_familiars", {}), "validate_familiars")
-                if validation.get("pets") != 66 or validation.get("packs") != 7:
+                if validation.get("pets") != len(pets) or validation.get("packs") != len(packs):
                     fail(f"unexpected validation summary: {validation}")
 
                 recipe = decode_tool_json(
