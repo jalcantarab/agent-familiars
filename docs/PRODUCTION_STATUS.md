@@ -11,11 +11,11 @@ The first production target is the full first-50 set from
 
 Current public state:
 
-- Installable pets: 66
+- Installable pets: 67
 - Motion briefs: 50
 - Flagship production briefs: 10
 - Missing installable first-50 pets: 0
-- Product-folklore extras: 10
+- Product-folklore extras: 11
 - State-instrument familiars: 6
 
 ## Quality Bar
@@ -84,6 +84,7 @@ The product-trope pack is installable and visually QA accepted:
 - `stakeholder-weather-vane`
 - `tradeoff-scale`
 - `launch-lantern`
+- `rice-centurion`
 
 These pets live outside the original first-50 developer-workflow list and are
 tracked as product-community companions.

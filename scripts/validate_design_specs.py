@@ -313,7 +313,7 @@ def validate_product_trope_pets() -> dict[str, object]:
     if not isinstance(pets, list):
         fail("catalog/product-trope-pets.json pets must be an array")
 
-    typed_pets = require_rank_sequence(pets, 10, "catalog/product-trope-pets.json pets")
+    typed_pets = require_rank_sequence(pets, 11, "catalog/product-trope-pets.json pets")
     pet_ids: set[str] = set()
 
     for pet in typed_pets:

@@ -30,10 +30,11 @@ Personality chooses the gesture. The state carrier tells the event.
 | Stakeholder Weather Vane | Dry, observant, lightly theatrical. | Attached vane and tail fin. | Opinion shifts become a forecast instead of a meeting complaint. |
 | Tradeoff Scale | Measured, exacting, slightly dramatic. | Attached balance pans. | Tradeoffs become real weight instead of a list of wishes. |
 | Launch Lantern | Hopeful, careful, ceremonially nervous. | Contained flame. | Readiness becomes a flame that can be tuned, shielded, or gutter. |
+| RICE Centurion | Earnest, officious, helpfully clumsy. | Wax-tablet shield with four scoring beads. | Prioritization becomes a little ritual of scoring, jamming, and settling. |
 
 ## Current Status
 
-The ten pets above have generated `spritesheet.webp` files, pet manifests, preview GIFs, contact sheets, deterministic atlas validation, and final visual QA acceptance. They are installable with:
+The eleven pets above have generated `spritesheet.webp` files, pet manifests, preview GIFs, contact sheets, deterministic atlas validation, and final visual QA acceptance. They are installable with:
 
 ```bash
 python3 scripts/install_pet.py --pack product-tropes

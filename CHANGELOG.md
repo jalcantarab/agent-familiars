@@ -2,7 +2,7 @@
 
 ## v0.1.0 - Initial Public Release
 
-- Ships 66 installable Codex pet bundles.
+- Ships 67 installable Codex pet bundles.
 - Adds Signal Surface as a non-creature utility familiar for glanceable state
   changes.
 - Adds the `state-instruments` pack: Signal Surface, Intent Compass, Thread
