@@ -374,6 +374,24 @@
     ]
   },
   {
+    "id": "queue-quixote",
+    "displayName": "Queue Quixote",
+    "folder": "pets/queue-quixote",
+    "description": "A hopeful backlog knight who tilts at stale queues and product windmills.",
+    "origin": "original",
+    "author": "Jorge Alcantara / Zentrik",
+    "sourceUrl": "https://github.com/jalcantarab/agent-familiars",
+    "license": "MIT",
+    "tags": [
+      "product",
+      "queues",
+      "backlog",
+      "scope",
+      "pm",
+      "product-tropes"
+    ]
+  },
+  {
     "id": "test-tortoise",
     "displayName": "Test Tortoise",
     "folder": "pets/test-tortoise",

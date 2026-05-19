@@ -46,6 +46,8 @@ work.
 - [Tradeoff Scale](../pets/tradeoff-scale): visible product weight and judgment.
 - [RICE Centurion](../pets/rice-centurion): prioritization scoring with a
   slightly over-serious tablet ritual.
+- [Queue Quixote](../pets/queue-quixote): backlog courage with a built-in
+  reality check.
 
 Install the pack:
 

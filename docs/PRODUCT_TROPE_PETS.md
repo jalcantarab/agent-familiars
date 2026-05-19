@@ -10,7 +10,7 @@ Personality chooses the gesture. The state carrier tells the event.
 
 ## Production Rules
 
-- Each pet must have one unmistakable state carrier: shield, feature heads, leaf growth, fossil layers, folded signal posture, tablet, polarity plates, vane, scale pans, or contained flame.
+- Each pet must have one unmistakable state carrier: shield, feature heads, leaf growth, fossil layers, folded signal posture, tablet, polarity plates, vane, scale pans, contained flame, or quest gear.
 - The carrier must belong to the body or held object. Avoid loose UI, floating icons, tiny labels, detached particles, and generic animation beats.
 - Waiting should feel like a real product pause: a decision, tradeoff, approval, or signal choice is needed.
 - Failure should deform the pet's own carrier: buried shield, regrown heads, overgrowth, fossil strata, noisy heron facets, cracked tablet, over-repelling plates, contradictory pressure, sinking pans, or guttering flame.
@@ -31,10 +31,11 @@ Personality chooses the gesture. The state carrier tells the event.
 | Tradeoff Scale | Measured, exacting, slightly dramatic. | Attached balance pans. | Tradeoffs become real weight instead of a list of wishes. |
 | Launch Lantern | Hopeful, careful, ceremonially nervous. | Contained flame. | Readiness becomes a flame that can be tuned, shielded, or gutter. |
 | RICE Centurion | Earnest, officious, helpfully clumsy. | Wax-tablet shield with four scoring beads. | Prioritization becomes a little ritual of scoring, jamming, and settling. |
+| Queue Quixote | Hopeful, courtly, almost too brave. | Lance with blank queue tickets and token buckler. | Backlog zeal becomes a noble charge that still needs a reality check. |
 
 ## Current Status
 
-The eleven pets above have generated `spritesheet.webp` files, pet manifests, preview GIFs, contact sheets, deterministic atlas validation, and final visual QA acceptance. They are installable with:
+The twelve pets above have generated `spritesheet.webp` files, pet manifests, preview GIFs, contact sheets, deterministic atlas validation, and final visual QA acceptance. They are installable with:
 
 ```bash
 python3 scripts/install_pet.py --pack product-tropes

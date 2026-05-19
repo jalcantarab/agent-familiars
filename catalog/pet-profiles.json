@@ -736,5 +736,16 @@
       { "state": "failed", "caption": "score jam" },
       { "state": "review", "caption": "one final bead" }
     ]
+  },
+  "queue-quixote": {
+    "title": "Queue Quixote",
+    "subtitle": "hopeful backlog knight",
+    "best": [
+      { "state": "idle", "caption": "quest ready" },
+      { "state": "running-right", "caption": "tilt forward" },
+      { "state": "waiting", "caption": "reality check" },
+      { "state": "failed", "caption": "wrong giant" },
+      { "state": "review", "caption": "token settled" }
+    ]
   }
 }

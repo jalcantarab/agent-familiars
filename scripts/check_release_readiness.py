@@ -76,7 +76,7 @@ TEXT_EXPECTATIONS = {
 
 EXPECTED_PACK_COUNTS = {
     "first-50": 50,
-    "product-tropes": 11,
+    "product-tropes": 12,
     "state-instruments": 6,
 }
 

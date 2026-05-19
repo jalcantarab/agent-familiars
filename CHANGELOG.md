@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.1 - 2026-05-19
+
+- Adds Queue Quixote to the product-folklore pack.
+- Updates catalog counts, product-trope docs, release readiness checks, and
+  preview validation for 68 installable pet bundles.
+
 ## v0.1.0 - Initial Public Release
 
 - Ships 67 installable Codex pet bundles.
