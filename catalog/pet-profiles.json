@@ -725,5 +725,16 @@
       { "state": "review", "caption": "whisker check" },
       { "state": "failed", "caption": "keyboard sit" }
     ]
+  },
+  "rice-centurion": {
+    "title": "RICE Centurion",
+    "subtitle": "scored product judgment",
+    "best": [
+      { "state": "idle", "caption": "score at attention" },
+      { "state": "waiting", "caption": "estimate needed" },
+      { "state": "running", "caption": "beads calculate" },
+      { "state": "failed", "caption": "score jam" },
+      { "state": "review", "caption": "one final bead" }
+    ]
   }
 }

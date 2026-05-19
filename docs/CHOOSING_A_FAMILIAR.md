@@ -44,6 +44,8 @@ work.
   well.
 - [Launch Lantern](../pets/launch-lantern): launch readiness without panic.
 - [Tradeoff Scale](../pets/tradeoff-scale): visible product weight and judgment.
+- [RICE Centurion](../pets/rice-centurion): prioritization scoring with a
+  slightly over-serious tablet ritual.
 
 Install the pack:
 

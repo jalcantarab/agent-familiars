@@ -2,12 +2,12 @@
 
 [![Validate](https://github.com/jalcantarab/agent-familiars/actions/workflows/validate.yml/badge.svg)](https://github.com/jalcantarab/agent-familiars/actions/workflows/validate.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-00d4df.svg)](LICENSE)
-[![66 familiars](https://img.shields.io/badge/familiars-66-00d4df.svg)](catalog/pets.json)
+[![67 familiars](https://img.shields.io/badge/familiars-67-00d4df.svg)](catalog/pets.json)
 
 [![Familiars, created with care by Zentrik](assets/brand/familiars-banner.webp)](https://zentrik.ai)
 
 Installable Codex pets for agent work, long-running sessions, and small moments
-of useful delight. Familiars includes 66 pet bundles, curated packs, a CLI, a
+of useful delight. Familiars includes 67 pet bundles, curated packs, a CLI, a
 local MCP server, and a renderer for GIFs, MP4s, and posters.
 
 Created with care by [Zentrik](https://zentrik.ai), where we think a lot about
@@ -183,6 +183,7 @@ and [No Knight Spotlight](assets/showcase/no-knight-spotlight.gif).
 | [Stakeholder Weather Vane](pets/stakeholder-weather-vane) | Shows shifting opinions as pressure on a vane. | Original, MIT |
 | [Tradeoff Scale](pets/tradeoff-scale) | Balances product choices as actual weight. | Original, MIT |
 | [Launch Lantern](pets/launch-lantern) | Tunes launch readiness as a protected flame. | Original, MIT |
+| [RICE Centurion](pets/rice-centurion) | Scores prioritization as a clumsy wax-tablet ritual. | Original, MIT |
 
 ## State Instruments
 
