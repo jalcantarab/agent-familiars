@@ -24,11 +24,19 @@ README_PRIMARY_REEL = "assets/showcase/familiars-reel.gif"
 
 
 def iter_markdown_files() -> list[Path]:
-    ignored_parts = {".git", ".venv", "node_modules", "__pycache__"}
+    ignored_parts = {
+        ".git",
+        ".venv",
+        "build",
+        "dist",
+        "node_modules",
+        "__pycache__",
+    }
     return sorted(
         path
         for path in ROOT.rglob("*.md")
         if not ignored_parts.intersection(path.relative_to(ROOT).parts)
+        and not any(part.endswith(".egg-info") for part in path.relative_to(ROOT).parts)
     )
 
 
