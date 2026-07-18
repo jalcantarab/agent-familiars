@@ -8,6 +8,8 @@ tools grow.
 Current public surface:
 
 - `familiars` CLI for listing, installing, validating, and rendering.
+- `familiars lab` local browser playground for live pet scenes and recipe
+  export.
 - `familiars-mcp` local server for agent access to catalog, install, and render
   utilities.
 - Shared recipe schemas and renderer limits used by both surfaces.
@@ -44,7 +46,7 @@ python scripts/render_readme_cards.py --check
 python scripts/render_previews.py --all --check
 python scripts/render_sequence.py --check
 python scripts/render_reel.py --check
-PYTHONPYCACHEPREFIX=/tmp/agent-familiars-pycache python -m py_compile setup.py scripts/check_release_readiness.py scripts/install_pet.py scripts/render_brand_assets.py scripts/render_readme_cards.py scripts/render_previews.py scripts/render_sequence.py scripts/render_reel.py scripts/smoke_mcp_client.py scripts/validate_pets.py scripts/validate_design_specs.py scripts/validate_docs.py scripts/generate_signal_surface.py scripts/generate_state_instruments.py scripts/rotate_installed_pet_variant.py familiars/__init__.py familiars/cli.py familiars/limits.py familiars/mcp_server.py familiars/pet_assets.py familiars/sequence_presets.py familiars/sequence_schema.py familiars/sequence_renderer.py
+PYTHONPYCACHEPREFIX=/tmp/agent-familiars-pycache python -m py_compile setup.py scripts/check_release_readiness.py scripts/install_pet.py scripts/render_brand_assets.py scripts/render_readme_cards.py scripts/render_previews.py scripts/render_sequence.py scripts/render_reel.py scripts/smoke_mcp_client.py scripts/validate_pets.py scripts/validate_design_specs.py scripts/validate_docs.py scripts/generate_signal_surface.py scripts/generate_state_instruments.py scripts/rotate_installed_pet_variant.py familiars/__init__.py familiars/cli.py familiars/lab.py familiars/limits.py familiars/mcp_server.py familiars/pet_assets.py familiars/sequence_presets.py familiars/sequence_schema.py familiars/sequence_renderer.py
 ```
 
 ## Phase 2: Ship An Installable CLI
@@ -137,16 +139,31 @@ root unless explicitly configured by the user, and must return plain paths plus
 human-readable summaries instead of dumping large binary payloads into tool
 responses.
 
+## Phase 4: Ship A Local Browser Lab
+
+Status: shipped after `v0.1.2`.
+
+Goal: make the atlas catalog immediately playable while keeping every useful
+result compatible with the existing sequence renderer.
+
+Scope:
+
+- choose pets or draw a small council from a curated pack
+- play the nine real Codex states directly from committed atlases
+- direct one pet or a whole scene
+- preview the existing sequence themes
+- validate recipe JSON with the Python renderer before download
+- stay local, offline-capable, and dependency-free
+
 ## Next Directions
 
-The CLI and MCP server are intentionally small. The next useful layer is a
-simple UI that reuses the same recipe shape:
+The CLI, lab, and MCP server are intentionally small. The next useful additions
+should deepen the same recipe shape:
 
-1. choose a pet or pack
-2. pick a preset and theme
-3. edit captions or beats
-4. render poster first
-5. export GIF or MP4 when the composition works
+1. edit captions and beat timing in the lab
+2. render a poster preview without leaving the lab
+3. save named local scene presets
+4. export GIF or MP4 when the composition works
 
 Other likely follow-ups:
 

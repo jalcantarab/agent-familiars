@@ -8,14 +8,14 @@
 
 Installable Codex pets for agent work, long-running sessions, and small moments
 of useful delight. Familiars includes 68 pet bundles, curated packs, a CLI, a
-local MCP server, and a renderer for GIFs, MP4s, and posters.
+local browser lab, an MCP server, and a renderer for GIFs, MP4s, and posters.
 
 Created with care by [Zentrik](https://zentrik.ai), where we think a lot about
 helping product teams turn intent into better software.
 
-| Install | Choose | Render | Connect |
+| Install | Play | Render | Connect |
 | --- | --- | --- | --- |
-| Drop pets into Codex with one command. | Pick from quiet tools, product folklore, and developer companions. | Generate README cards, GIFs, MP4s, and pack comparisons. | Let agents inspect, install, and render through MCP. |
+| Drop pets into Codex with one command. | Assemble a live tiny council in the local lab. | Generate README cards, GIFs, MP4s, and pack comparisons. | Let agents inspect, install, and render through MCP. |
 
 ## See It Move
 
@@ -111,6 +111,20 @@ into my local Codex pets folder. Then tell me to refresh custom pets in Codex.
 For deeper setup, recipe, and agent integration details, see the
 [Install guide](docs/INSTALL.md), [Create A Sequence](docs/CREATE_A_SEQUENCE.md),
 and [MCP server](docs/MCP.md).
+
+## Open The Lab
+
+Meet the full catalog before choosing one pet:
+
+```bash
+python -m pip install -e .
+familiars lab
+```
+
+The local lab lets you assemble up to six familiars, direct their real Codex
+states, run a short group ritual, switch sequence themes, and export a validated
+recipe for GIF or poster rendering. It stays on localhost and loads no
+third-party scripts, fonts, or pet assets. See [Familiars Lab](docs/LAB.md).
 
 ## Where It Works
 
@@ -312,7 +326,8 @@ python scripts/render_readme_cards.py --check
 python scripts/render_previews.py --all --check
 python scripts/render_sequence.py --check
 python scripts/render_reel.py --check
-PYTHONPYCACHEPREFIX=/tmp/agent-familiars-pycache python -m py_compile setup.py scripts/check_release_readiness.py scripts/install_pet.py scripts/render_brand_assets.py scripts/render_readme_cards.py scripts/render_previews.py scripts/render_sequence.py scripts/render_reel.py scripts/smoke_mcp_client.py scripts/validate_pets.py scripts/validate_design_specs.py scripts/validate_docs.py scripts/generate_signal_surface.py scripts/generate_state_instruments.py scripts/rotate_installed_pet_variant.py familiars/__init__.py familiars/cli.py familiars/limits.py familiars/mcp_server.py familiars/pet_assets.py familiars/sequence_presets.py familiars/sequence_schema.py familiars/sequence_renderer.py
+PYTHONPYCACHEPREFIX=/tmp/agent-familiars-pycache python -m py_compile setup.py scripts/check_release_readiness.py scripts/install_pet.py scripts/render_brand_assets.py scripts/render_readme_cards.py scripts/render_previews.py scripts/render_sequence.py scripts/render_reel.py scripts/smoke_mcp_client.py scripts/validate_pets.py scripts/validate_design_specs.py scripts/validate_docs.py scripts/generate_signal_surface.py scripts/generate_state_instruments.py scripts/rotate_installed_pet_variant.py familiars/__init__.py familiars/cli.py familiars/lab.py familiars/limits.py familiars/mcp_server.py familiars/pet_assets.py familiars/sequence_presets.py familiars/sequence_schema.py familiars/sequence_renderer.py
+python -m unittest discover -s tests -v
 python -m pip install -e .
 familiars validate
 python -m pip install -e ".[mcp]"

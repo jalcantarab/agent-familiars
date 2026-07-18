@@ -82,6 +82,24 @@ Dry-run prints the normalized recipe without writing media:
 familiars render --pet signal-surface --dry-run
 ```
 
+## Open The Lab
+
+Launch the local browser playground:
+
+```bash
+familiars lab
+```
+
+The lab assembles live multi-pet scenes from the packaged atlases, plays all
+nine Codex states, and exports renderer-compatible recipes after local
+validation. It binds to `127.0.0.1:8765` by default and has no telemetry.
+
+```bash
+familiars lab --port 8877 --no-open
+```
+
+See [Familiars Lab](LAB.md) for the interaction and safety details.
+
 For the recipe shape and animation guidance, see
 [Create A Sequence](CREATE_A_SEQUENCE.md).
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Adds `familiars lab`, a local browser playground for assembling live
+  multi-pet scenes from the packaged atlas catalog.
+- Adds whole-council and per-pet state direction, pack-aware random councils,
+  a short group ritual, sequence-theme previews, and validated recipe export.
+- Keeps the lab dependency-free, localhost-first, offline-capable, and covered
+  by server, renderer, CLI, and wheel-package tests.
+
 ## v0.1.2 - 2026-05-19
 
 - Repaints RICE Centurion and Queue Quixote with full illustrated state rows.

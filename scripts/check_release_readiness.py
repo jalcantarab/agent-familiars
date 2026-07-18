@@ -40,6 +40,7 @@ REQUIRED_FILES = [
     "docs/CREATE_A_REEL.md",
     "docs/CREATE_A_SEQUENCE.md",
     "docs/INSTALL.md",
+    "docs/LAB.md",
     "docs/LICENSING.md",
     "docs/MAINTAINER_WORKFLOW.md",
     "docs/MCP.md",
@@ -48,6 +49,7 @@ REQUIRED_FILES = [
 
 README_LINKS = [
     "docs/INSTALL.md",
+    "docs/LAB.md",
     "docs/CHOOSING_A_FAMILIAR.md",
     "docs/CLI.md",
     "docs/MCP.md",
