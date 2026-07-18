@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Familiars Lab</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-lockup">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <h1>Familiars Lab</h1>
+          <p>Build a tiny working council.</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button class="button button-quiet" id="surprise-button" type="button">Surprise me</button>
+        <button class="button button-quiet" id="rally-button" type="button">Run ritual</button>
+        <button class="button button-primary" id="export-button" type="button">Export recipe</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="library-panel" aria-label="Familiar library">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Library</p>
+            <h2>Choose a crew</h2>
+          </div>
+          <span class="count" id="library-count">0</span>
+        </div>
+        <label class="field">
+          <span class="sr-only">Search familiars</span>
+          <input id="search-input" type="search" placeholder="Search pets, roles, tags" autocomplete="off">
+        </label>
+        <label class="field field-inline">
+          <span>Pack</span>
+          <select id="pack-select" aria-label="Filter by pack"></select>
+        </label>
+        <div class="pet-list" id="pet-list" role="list"></div>
+      </aside>
+
+      <section class="stage-panel" aria-labelledby="stage-title">
+        <div class="stage-toolbar">
+          <div>
+            <p class="eyebrow">Live stage</p>
+            <h2 id="stage-title">Your council</h2>
+          </div>
+          <div class="scene-meta">
+            <span id="scene-count">0 / 6</span>
+            <button class="text-button" id="clear-button" type="button">Clear</button>
+          </div>
+        </div>
+
+        <div class="state-strip" id="global-state-strip" aria-label="Set every familiar's state"></div>
+
+        <div class="stage" id="stage">
+          <div class="stage-grid" aria-hidden="true"></div>
+          <div class="empty-state" id="empty-state">
+            <span class="empty-signal" aria-hidden="true"></span>
+            <h3>Call in a familiar</h3>
+            <p>Pick one from the library or let the lab assemble a council.</p>
+          </div>
+          <div class="pet-stage" id="pet-stage" aria-live="polite"></div>
+        </div>
+
+        <div class="stage-note">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span>Click a familiar to say hello. Use a state to direct the whole crew.</span>
+        </div>
+      </section>
+
+      <aside class="inspector-panel" aria-label="Scene inspector">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Director</p>
+            <h2 id="inspector-title">Scene settings</h2>
+          </div>
+        </div>
+
+        <section class="inspector-section" id="selected-section" hidden>
+          <div class="selected-heading">
+            <div>
+              <p class="eyebrow">Selected</p>
+              <h3 id="selected-name"></h3>
+            </div>
+            <button class="remove-button" id="remove-button" type="button" aria-label="Remove selected familiar">Remove</button>
+          </div>
+          <p class="selected-copy" id="selected-description"></p>
+          <div class="state-grid" id="selected-state-grid" aria-label="Set selected familiar's state"></div>
+        </section>
+
+        <section class="inspector-section">
+          <div class="section-label">
+            <h3>Stage theme</h3>
+            <span id="theme-name"></span>
+          </div>
+          <div class="theme-list" id="theme-list"></div>
+        </section>
+
+        <section class="inspector-section">
+          <h3>What leaves the lab</h3>
+          <p>The export is validated against the same recipe and sprite renderer used by the CLI. Render it with:</p>
+          <code>familiars render --recipe your-scene.json</code>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="statusbar">
+      <span id="status-message">Loading the catalog...</span>
+      <span>Local only. No telemetry.</span>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

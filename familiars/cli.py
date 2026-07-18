@@ -29,6 +29,7 @@ from .pet_assets import (
     pet_ids,
     spritesheet_path,
 )
+from .lab import run_lab
 from .sequence_presets import (
     SequencePresetError,
     presets,
@@ -295,6 +296,15 @@ def cmd_render(args: argparse.Namespace) -> None:
         print(f"wrote {pretty_path(path)}")
 
 
+def cmd_lab(args: argparse.Namespace) -> None:
+    run_lab(
+        host=args.host,
+        port=args.port,
+        open_browser=not args.no_open,
+        verbose=args.verbose,
+    )
+
+
 def check_profiles() -> None:
     known_pets = set(pet_ids())
     configured_profiles = set(profiles())
@@ -392,6 +402,13 @@ def build_parser() -> argparse.ArgumentParser:
     render_parser.add_argument("--output-dir", help="Output directory; defaults to ./output/sequences.")
     render_parser.add_argument("--dry-run", action="store_true", help="Print normalized recipe without rendering.")
     render_parser.set_defaults(func=cmd_render)
+
+    lab_parser = subcommands.add_parser("lab", help="Open the local Familiars browser playground.")
+    lab_parser.add_argument("--host", default="127.0.0.1", help="Host interface; defaults to 127.0.0.1.")
+    lab_parser.add_argument("--port", type=int, default=8765, help="Port to serve; defaults to 8765.")
+    lab_parser.add_argument("--no-open", action="store_true", help="Do not open a browser automatically.")
+    lab_parser.add_argument("--verbose", action="store_true", help="Log local HTTP requests.")
+    lab_parser.set_defaults(func=cmd_lab)
 
     validate_parser = subcommands.add_parser("validate", help="Validate packaged catalog data and sequence examples.")
     validate_parser.set_defaults(func=cmd_validate)

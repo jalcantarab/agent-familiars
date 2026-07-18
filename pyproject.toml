@@ -55,3 +55,6 @@ mcp = ["mcp>=1.0,<2"]
 
 [tool.setuptools]
 packages = ["familiars"]
+
+[tool.setuptools.package-data]
+familiars = ["lab_assets/*"]
