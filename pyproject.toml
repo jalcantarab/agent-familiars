@@ -51,7 +51,7 @@ familiars = "familiars.cli:main"
 familiars-mcp = "familiars.mcp_server:main"
 
 [project.optional-dependencies]
-mcp = ["mcp>=1.0,<2"]
+mcp = ["mcp>=1.0,<3"]
 
 [tool.setuptools]
 packages = ["familiars"]
