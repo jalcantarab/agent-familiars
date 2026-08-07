@@ -15,7 +15,8 @@ that is usually:
 
 System temporary directories are fine for short-lived patch files or disposable
 scratch, but durable worktrees should live in the sibling `worktrees/` directory.
-Do not move or delete existing worktrees unless explicitly asked.
+Remove completed or stale worktrees once their work is committed and no active
+agent depends on them.
 
 ## Flow
 
