@@ -3,6 +3,13 @@
 This repository is public-facing. Work here should be useful to the broader
 Codex community, easy to review, and careful about licensing.
 
+## Repository purpose
+
+This is `agent-familiars`, a public repository for Codex pet and familiar assets and packaging. It is not a private Zentrik operating repository.
+
+It owns: redistributable pet assets, installers, catalogs, licensing notes, and QA documentation.
+It does not own: private company strategy, customer data, product integrations, or internal brand mappings.
+
 ## Working Rules
 
 - Keep changes small and reviewable.
