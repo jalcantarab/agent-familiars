@@ -11,6 +11,24 @@ For the full production workflow, read
 [PET_CREATION_PLAYBOOK.md](PET_CREATION_PLAYBOOK.md). For adjacent tools and
 cross-agent pet projects, read [ECOSYSTEM_TOOLS.md](ECOSYSTEM_TOOLS.md).
 
+## Proposing A Pet
+
+If you have an idea but are not ready to draw the atlas, you can open a Pet
+Request issue. A strong proposal focuses on how the character acts during work,
+not just how it looks.
+
+**Good example:**
+- **Concept:** Backlog Archaeologist. A scholarly fossil explorer for old tickets.
+- **Motion language:**
+  - `idle`: brush-tail makes one careful stroke across the fossil shell
+  - `waiting`: holds up a fossil slab, asking if the old ticket still matters
+  - `running`: brush-tail clears a sediment layer to reveal an artifact
+  - `review`: polishes the fossil shell and nods through its goggles
+  - `failed`: sediment layers slide over its head, burying the decision
+- **Rights:** Original idea, no company marks or copyrighted characters, safe for MIT.
+
+If you want to build the pet yourself, continue below.
+
 ## 1. Write The Character Brief
 
 Start with the smallest useful description:
